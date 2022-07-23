@@ -1,13 +1,15 @@
 let AnimeMovieAndSeriesArray = [
     {
+        shortName : "Your Name",
         name : "Your Name (Kimi no na wa)",
         year : "2016",
         id : "YourName",
         src : "images/kimi-no-na-wa_2560x1440.jpg",
-        geners : "action adventure comedy fantasy",
+        geners : "Romace, Drama, Fantasy, School",
         href : "Your Name/YourName.html"
     },
     {
+        shortName : "Demon Slayer",
         name : "Demon Slayer (Kimetsu no Yaiba)",
         year : "2019",
         id : "YourName",
@@ -16,6 +18,7 @@ let AnimeMovieAndSeriesArray = [
         href : "Demon Slayer/DemonSlayer.html"
     },
     {
+        shortName : "Hunter X Hunter",
         name : "Hunter X Hunter",
         year : "2013",
         id : "YourName",
@@ -24,20 +27,22 @@ let AnimeMovieAndSeriesArray = [
         href : "Hunter X Hunter/HunterXHunter.html"
     },
     {
+        shortName : "Spy X Family",
         name : "Spy X Family",
         year : "2022",
         id : "YourName",
         src : "images/spyxfamily.jpg",
         geners : "action adventure comedy fantasy",
-        href : "Spy X Family/SpyXFamily.htmll"
+        href : "Spy X Family/SpyXFamily.html",
     },
     {
+        shortName : "Love Is War",
         name : "Kaguya-Sama: Love Is War",
         year : "2019",
         id : "YourName",
-        src : "images/Kaguya-sama-love-is-war.jpg",
+        src : "images/wp4051808-kaguya-sama-love-is-war-wallpapers-scaled.jpg",
         geners : "action adventure comedy fantasy",
-        href : "Love Is War/LoveIsWar.html"
+        href : "Love Is War/LoveIsWar.html",
     }
 ]
 
@@ -47,7 +52,7 @@ let AnimeMovieAndSeriesArray = [
 let SearchBox = document.getElementById("MainSearchBox");
 let SearchResultDiv = document.getElementById("MainSearchResult");
 
-
+SearchBox.placeholder = "Search..."
 
 SearchBox.addEventListener("keyup" , (event) =>{
     console.log(event.target.value)
@@ -119,31 +124,91 @@ SearchBox.addEventListener("keyup" , (event) =>{
 
 /*Gender button*/
 
-let ActionBtn = document.getElementById("Action");
+let GenderBtn = document.querySelectorAll(".dropdown-item");
+let MainSliderItem = document.getElementById("mainSlider-item-1");
+let mainSliderResultDiv = document.getElementById("mainSliderResultDiv");
+let mainSliderResultDivH2 = document.getElementById("mainSliderResultDivH2");
 
-ActionBtn.addEventListener("click" , ()=>{
-    SearchResultDiv.innerHTML = "";
-    innerSlide.style.left = "-300%"
-    let ActionAnime = document.querySelectorAll(".action");
+GenderBtn.forEach(item => {
+    item.addEventListener("click" , (event)=>{
+    let ClickBtn = event.target.innerHTML;
+    mainSliderResultDivH2.innerHTML = "";
+    mainSliderResultDivH2.innerHTML = `${ClickBtn} Anime`;
+    MainSliderItem.innerHTML = "";
+    mainSliderResultDiv.innerHTML = "";
 
-    for (let i = 0; i < ActionAnime.length; i++) {
-        let clone = ActionAnime[i].cloneNode(true);
-        SearchResultDiv.append(clone);
-    }
-})
+            if(ClickBtn == "Action"){
+                let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
+                    return movie.geners.toLowerCase().includes("action");
+                })
+                console.log(filteredMovie);
+                for (let i = 0; i < filteredMovie.length; i++) {
+                    let Src = filteredMovie[i].src;
+                    let Year = filteredMovie[i].year;
+                    let Name = filteredMovie[i].shortName;
+                    let Href = filteredMovie[i].href;
+    
+                    let ResultDiv;
+    
+                    if(SearchBox.classList.contains("anime-page")){
+                        ResultDiv = `
+                        
+                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
+                        <a href="${Href}" class="text-decoration-none">
+                        <div class="card btn bg-black text-warning overflow-hidden">
+                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
+                  
+                                        <i class="bi bi-play-circle my-auto"></i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+                                        </svg>
+                                      
+                                      </div><hr>
+                              <div class="d-flex justify-content-between flex-row bg-gradient p-2">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6 class=" border border-top-0 border-start-0 border-end-0 border-bottom-1">(${Year})</h6>
+                            </div>
+                        </div>
+                        </a>
+                      </div>
+                      
+                        `
+                    }else{
+                        ResultDiv = `
+                        
+                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
+                        <a href="${Href}" class="text-decoration-none">
+                        <div class="card btn bg-black text-warning overflow-hidden">
+                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
+                  
+                                        <i class="bi bi-play-circle my-auto"></i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+                                        </svg>
+                                      
+                                      </div><hr>
+                              <div class="d-flex justify-content-between flex-row bg-gradient p-2">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6 class=" border border-top-0 border-start-0 border-end-0 border-bottom-1">(${Year})</h6>
+                            </div>
+                        </div>
+                        </a>
+                      </div>
+                      
+                        `
+                    }
+    
+                   
+    
+                    mainSliderResultDiv.innerHTML += ResultDiv;
+                }
+            }
 
-let ComedyBtn = document.getElementById("Comedy");
 
-ComedyBtn.addEventListener("click" , ()=>{
-    SearchResultDiv.innerHTML = ""
-    innerSlide.style.left = "-300%"
-    let ComedyAnime = document.querySelectorAll(".comedy");
-   
-
-    for (let i = 0; i < ComedyAnime.length; i++) {
-        let clone = ComedyAnime[i].cloneNode(true)
-        SearchResultDiv.append(clone);
-    }
+        
+    })
 })
 
 /*Gender button*/
