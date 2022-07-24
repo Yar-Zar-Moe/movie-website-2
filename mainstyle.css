@@ -645,6 +645,8 @@ body {
 /*Series Cards*/
 .card{
     border: 1px solid #fafafa;
+    width: 100%;
+
 }
 
 .card:hover{
