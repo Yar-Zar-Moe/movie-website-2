@@ -1,110 +1,263 @@
 let AnimeMovieAndSeriesArray = [
+  /*Anime Movie Array Start */
     {
-        shortName : "Your Name",
-        name : "Your Name (Kimi no na wa)",
-        year : "2016",
-        src : "images/kimi-no-na-wa_2560x1440.jpg",
-        geners : "Romance Drama Fantasy School",
-        href : "Your Name/YourName.html"
-    },
+      shortName : "Dr Stone Ryusui",
+      name : "Dr Stone Ryusui",
+      year : "2022",
+      src : "images/featured-drstone-ryusui.jpg",
+      geners : "Adventure, Action, Science fiction, Comedy",
+      href : "Anime Movies/Dr stone ryuusui/DrStoneRyuusui.html",
+      animetype : "Movie",
+      sub : "MMsub",
+      rating : "8.4"
+      },
+      {
+      shortName : "Sword Art Online Progressive",
+      name : "Sword Art Online Progressive",
+      year : "2022",
+      src : "images/SwordArtOnlineProgressive.jpg",
+      geners : "Adventure, Action, Fantasty, Game, Romance",
+      href : "Anime Movies/sword art online progressive/SwordArtOnlineProgressive.html",  
+      animetype : "Movie",   
+      sub : "MMsub",
+      rating : "7.1"
+      },
+      {
+      shortName : "Bubbels",
+      name : "Bubbels",
+      year : "2022",
+      src : "images/bubble.jpg",
+      geners : "Action, Romance, Drama, Fantasy",
+      href : "Anime Movies/Bubble/Bubble.html",
+      animetype : "Movie",
+      sub : "MMsub",
+      rating : "6.3"
+      },
+      {
+      shortName : "Goblin Slayer:Goblin crown's",
+      name : "Goblin Slayer:Goblin crown's",
+      year : "2020",
+      src : "images/goblin slayer goblin crown.jpg",
+      geners : "Action, DarkFantasy",
+      href : "Anime Movies/goblin slayer goblin crown/GoblinSlayerGoblinCrown's.html",
+      animetype : "Movie",
+      sub : "MMsub",
+      rating : "6.6"
+      },
+      {
+      shortName : "Violet Evergarden The Movie",
+      name : "Violet Evergarden The Movie",
+      year : "2020",
+      src : "images/violetevergarde.png",
+      geners : "Drama, Romance, Military",
+      href : "Anime Movies/Violet Evergarden Movie/VioletEvergardenMovie.html",  
+      animetype : "Movie",       
+      sub : "MMsub",
+      rating : "8.3"
+      },  
+      {
+      shortName : "Weathering with You",
+      name : "Weathering with You",
+      year : "2019",
+      src : "images/weathering with you.jpg",
+      geners : "Romance, Drama, Fantasy",
+      href : "Anime Movies/Weathering with you/WeatheringWithYou.html",
+      animetype : "Movie",
+      sub : "MMsub",
+      rating : "7.5"
+      },
+      {
+      shortName : "Saga of Tanya The Evil: The Movie",
+      name : "Saga of Tanya The Evil: The Movie",
+      year : "2019",
+      src : "images/saga of the tanya the evil.jpg",
+      geners : "Action, Isekai, Military, DarkFantasy",
+      href : "Anime Movies/saga of the tanya the evil moive/SagaOfTheTanyaTheEvilMovie.html",      
+      animetype : "Movie",
+      sub : "MMsub",
+      rating : "7.5"
+      },
+      {
+      shortName : "I Want to eat Your Pencreas",
+      name : "I Want to eat Your Pencreas",
+      year : "2018",
+      src : "images/I want to eat your pencreas.jpg",
+      geners : "School, Romance, Drama",
+      href : "Anime Movies/I want to eat your pencreas/I want to eat your pencreas.html", 
+      animetype : "Movie", 
+      sub : "MMsub",
+      rating : "8.0"
+      },
+      {
+      shortName : "Your Name",
+      name : "Your Name (Kimi no na wa)",
+      year : "2016",
+      src : "images/kimi-no-na-wa_2560x1440.jpg",
+      geners : "Romance Drama Fantasy School",
+      href : "Anime Movies/Your Name/YourName.html",
+      animetype : "Movie", 
+      sub : "MMsub",
+      rating : "8.4"
+      },
+      {
+      shortName : "A Silent Voice",
+      name : "A Silent Voice",
+      year : "2016",
+      src : "images/a silent voice.jpg",
+      geners : "Drama School Romance Slice of life",
+      href : "Anime Movies/A silent Voice/ASilentVoice.html",  
+      animetype : "Movie", 
+      sub : "MMsub",
+      rating : "8.1"
+      },
+      {
+      shortName : "Assassination Classrooms 365ways",
+      name : "Assassination Classrooms 365ways",
+      year : "2016",
+      src : "images/assassination the moviej.jpg",
+      geners : "Action, School, Comedy, Supernatural",
+      href : "Anime Movies/Assassination Classroom the movie/AssassinationClassroom365Days.html",
+      animetype : "Movie", 
+      sub : "MMsub",
+      rating : "5.4"
+      },
+      {
+      shortName : "Hunter X Hunter Movie 2",
+      name : "Hunter X Hunter Movie 2",
+      year : "2013",
+      src : "images/Hunter X Hunter the last mission.jpg",
+      geners : "Action Adventure Comedy Supernatural Fantasy",
+      href : "Anime Movies/Hunter X Hunter the last mission/Hunter X Hunter The Last Mission.html",
+      animetype : "Movie",
+      sub : "MMsub",
+      rating : "6.6"
+      },
+      {
+      shortName : "Hunter X Hunter Movie 1",
+      name : "Hunter X Hunter Movie 1",
+      year : "2013",
+      src : "images/Hunter X Hunter phantom rouge.jpg",
+      geners : "Action Adventure Comedy Supernatural Fantasy",
+      href : "Anime Movies/Hunter X Hunter Phantom Rouge/Hunter X Hunter Phantom Rouge.html",
+      animetype : "Movie",
+      sub : "MMsub",
+      rating : "6.6"
+      },
+      {
+      shortName : "Hotarubi no Mori e",
+      name : "Hotarubi no Mori e",
+      year : "2011",
+      src : "images/into the forest of fireflies .jpg",
+      geners : "Romance Drama Fantasy",
+      href : "Anime Movies/Into the forest of fireflies/Hotarubi no Mori e.html",
+      animetype : "Movie", 
+      sub : "MMsub",
+      rating : "7.8"
+      },
+  /*Anime Movie Array End */
+    /*Anime Series Array Start */
     {
-        shortName : "Demon Slayer",
-        name : "Demon Slayer (Kimetsu no Yaiba)",
-        year : "2019",
-        src : "images/demonslayer2.jpg",
-        geners : "Action Adventure Comedy Demon",
-        href : "Demon Slayer/DemonSlayer.html"
-    },
-    {
-        shortName : "Hunter X Hunter",
-        name : "Hunter X Hunter",
-        year : "2013",
-        src : "images/hunterxhunter.jpg",
-        geners : "Action Adventure Comedy Supernatural Fantasy",
-        href : "Hunter X Hunter/HunterXHunter.html"
-    },
-    {
-        shortName : "Spy X Family",
-        name : "Spy X Family",
-        year : "2022",
-        src : "images/spyxfamily.jpg",
-        geners : "Action Comedy Spy",
-        href : "Spy X Family/SpyXFamily.html",
-    },
-    {
-        shortName : "Love Is War",
-        name : "Kaguya-Sama: Love Is War",
-        year : "2019",
-        src : "images/wp4051808-kaguya-sama-love-is-war-wallpapers-scaled.jpg",
-        geners : "School Romance Comedy Psychological",
-        href : "Love Is War/LoveIsWar.html",
-    },
-    {
-        shortName : "A Silent Voice",
-        name : "A Silent Voice",
-        year : "2016",
-        src : "images/a silent voice.jpg",
-        geners : "School Romance Comedy Psychological",
-        href : "",
-    },
-    {
-        shortName : "Assassination Classrooms 365days",
-        name : "Assassination Classrooms 365days",
-        year : "2016",
-        src : "images/assassination the moviej.jpg",
-        geners : "Action, School, Comedy, Supernatural",
-        href : "Love Is War/LoveIsWar.html",
-    },
-    {
-        shortName : "Goblin Slayer:Goblin crown's",
-        name : "Goblin Slayer:Goblin crown's",
-        year : "2020",
-        src : "images/goblin slayer golin crown's.jpg",
-        geners : "Action, DarkFantasy",
-        href : "Love Is War/LoveIsWar.html",
-    },
-    {
-        shortName : "Saga of Tanya The Evil: The Movie",
-        name : "Saga of Tanya The Evil: The Movie",
-        year : "2019",
-        src : "images/saga of the tanya the evil.jpg",
-        geners : "Action, Isekai, Military, DarkFantasy",
-        href : "Love Is War/LoveIsWar.html",
-    },
-    {
-        shortName : "I Want to eat Your Pencreas",
-        name : "I Want to eat Your Pencreas",
-        year : "2018",
-        src : "images/I want to eat your pencreas.jpg",
-        geners : "School, Romance, Drama",
-        href : "Love Is War/LoveIsWar.html",
-    },
-    {
-        shortName : "Violet Evergarden The Movie",
-        name : "Violet Evergarden The Movie",
-        year : "2020",
-        src : "images/violetevergarde.png",
-        geners : "Drama, Romance, Military",
-        href : "Love Is War/LoveIsWar.html",
-    },
-    {
-        shortName : "Weathering with You",
-        name : "Weathering with You",
-        year : "2019",
-        src : "images/weathering with you.jpg",
-        geners : "Romance, Drama, Fantasy",
-        href : "Love Is War/LoveIsWar.html",
-    },
-    {
-        shortName : "Dr Stone Ryusui",
-        name : "Dr Stone Ryusui",
-        year : "2022",
-        src : "images/featured-drstone-ryusui.jpg",
-        geners : "Adventure, Action, Science fiction, Comedy",
-        href : "Love Is War/LoveIsWar.html",
-    }
+      shortName : "Spy X Family",
+      name : "Spy X Family",
+      year : "2022",
+      src : "images/spyxfamily.jpg",
+      geners : "Action Comedy Spy",
+      href : "Anime Series/Spy X Family/SpyXFamily.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "8.8"
+      },
+      {
+      shortName : "Love Is War season 3",
+      name : "Kaguya-Sama: Love Is War Season 3",
+      year : "2022",
+      src : "images/love Is War seaosn3.jpg",
+      geners : "School Romance Comedy Psychological",
+      href : "Anime Series/Love Is War Season 3/LoveIsWarseason3.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "9.1"
+      },
+      {
+      shortName : "Demon Slayer Season 2",
+      name : "Demon Slayer Season 2",
+      year : "2021",
+      src : "images/demon slayer season 2.png",
+      geners : "Action Adventure Comedy Demon",
+      href : "Anime Series/Demon Slayer Season 2/DemonSlayerseason2.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "8.7"
+      },
+      {
+      shortName : "Dr Stone Season 2",
+      name : "Dr Stone Season 2",
+      year : "2021",
+      src : "images/dr stone season2.jpg",
+      geners : "Adventure, Action, Science fiction, Comedy",
+      href : "Anime Series/Dr stone season 2/Dr Stone Season 2.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "8.2"
+      },
+      {
+      shortName : "Love Is War season 2",
+      name : "Kaguya-Sama: Love Is War Season 2",
+      year : "2020",
+      src : "images/love is war season 2.jpg",
+      geners : "School Romance Comedy Psychological",
+      href : "Anime Series/Love Is War Season 2/LoveIsWarseason2.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "8.6"
+      },
+      {
+      shortName : "Demon Slayer Season 1",
+      name : "Demon Slayer Season 1",
+      year : "2019",
+      src : "images/demonslayer2.jpg",
+      geners : "Action Adventure Comedy Demon",
+      href : "Anime Series/Demon Slayer/DemonSlayer.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "8.7"
+      },   
+      {
+      shortName : "Dr Stone Season 1",
+      name : "Dr Stone Season 1",
+      year : "2019",
+      src : "images/dr stone season 1.jpg",
+      geners : "Adventure, Action, Science fiction, Comedy",
+      href : "Anime Series/Dr stone season 1/Dr Stone Season 1.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "8.2"
+      },
+      {
+      shortName : "Love Is War season 1",
+      name : "Kaguya-Sama: Love Is War",
+      year : "2019",
+      src : "images/wp4051808-kaguya-sama-love-is-war-wallpapers-scaled.jpg",
+      geners : "School Romance Comedy Psychological",
+      href : "Anime Series/Love Is War/LoveIsWar.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "8.5"
+      },
+      {
+      shortName : "Hunter X Hunter",
+      name : "Hunter X Hunter",
+      year : "2013",
+      src : "images/hunterxhunter.jpg",
+      geners : "Action Adventure Comedy Supernatural Fantasy",
+      href : "Anime Series/Hunter X Hunter/HunterXHunter.html",
+      animetype : "Series",
+      sub : "MMsub",
+      rating : "9.0"
+      },
+    
+    
 ]
-
 
 
 
@@ -115,22 +268,24 @@ SearchBox.placeholder = "Search..."
 
 SearchBox.addEventListener("keyup" , (event) =>{
     console.log(event.target.value)
-    SearchResultDiv.innerHTML = ""
+    mainSliderResultDiv.innerHTML = ""
     let SearchText = event.target.value.toLowerCase();
     let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
         return movie.name.toLowerCase().includes(SearchText);
     })
-    console.log(filteredMovie)
+    if(SearchText.length === 0){
+      return
+    }
+  
     if(event.key == "Enter"){
-
+      MainSliderItem.style.display = "none";
         if(filteredMovie.length === 0){
-            SearchResultDiv.innerHTML = `  
-            <div id="" class="text-warning text-center p-3 border-bottom border-warning ">
+            mainSliderResultDiv.innerHTML = `  
+            <div id="" class="text-warning text-center p-3">
             Nothing matchs with "${event.target.value}"
             </div>
             "`
         }
-
         
         for (let i = 0; i < filteredMovie.length; i++) {
             const Id = filteredMovie[i].id;
@@ -138,44 +293,65 @@ SearchBox.addEventListener("keyup" , (event) =>{
             const Name = filteredMovie[i].name;
             const Year = filteredMovie[i].year;
             const Href = filteredMovie[i].href;
-
+            const sub = filteredMovie[i].sub;
+            const animeType = filteredMovie[i].animetype;
+            const rating = filteredMovie[i].rating;
             let ResultDiv;
 
             if(SearchBox.classList.contains("anime-page")){
                 console.log("this is anime page");
                 ResultDiv = `
-                <a href="../${Href}" class="text-decoration-none">
-                <div class="d-flex text-white align-items-center border border-warning p-1 border-top-0">
-                        <img src="../${Src}" class="float-start img-thumbnail search-img bg-dark ms-lg-2 mt-1 rounded-0" alt="...">
-        
-                        <div style="width:2px ;color: yellow;" class="vr ms-2"></div>
-        
-                        <div class="d-flex flex-lg-column text-center align-items-center">
-                          <h5 class="ms-2">${Name}</h5>
-                          <h6 class="ms-2 text-color-yellow">(${Year})</h6>
-                        </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
-                      </a>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                 `
             }else{
                 ResultDiv = `
-                <a href="${Href}" class="text-decoration-none">
-                <div class="d-flex text-white align-items-center border border-warning p-1 border-top-0">
-                        <img src="${Src}" class="float-start img-thumbnail search-img bg-dark ms-lg-2 mt-1 rounded-0" alt="...">
-        
-                        <div style="width:2px ;color: yellow;" class="vr ms-2"></div>
-        
-                        <div class="d-flex flex-lg-column text-center align-items-center">
-                          <h5 class="ms-2">${Name}</h5>
-                          <h6 class="ms-2 text-color-yellow">(${Year})</h6>
-                        </div>
+
+                      <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
+                        <div class="card bg-black text-warning overflow-hidden">
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
                       </a>
+                 </div>
                 `
             }
 
 
-        SearchResultDiv.innerHTML += ResultDiv;
+        mainSliderResultDiv.innerHTML += ResultDiv;
         }
     }
 })
@@ -183,9 +359,13 @@ SearchBox.addEventListener("keyup" , (event) =>{
 
 /*Gender button*/
 
-let GenderBtn = document.querySelectorAll(".dropdown-item");
+  let GenderBtn = document.querySelectorAll(".dropdown-item");
 let MainSliderItem = document.getElementById("mainSlider-item-1");
 let mainSliderResultDiv = document.getElementById("mainSliderResultDiv");
+let mainSliderResultDiv2 = document.getElementById("mainSliderResultDiv2");
+let mainSliderResultDiv3 = document.getElementById("mainSliderResultDiv3");
+let mainSliderResultDiv4 = document.getElementById("mainSliderResultDiv4");
+let mainSliderResultDivPagination = document.getElementById("mainSliderResultDivPagination");
 let mainSliderResultDivH2 = document.getElementById("mainSliderResultDivH2");
 
 GenderBtn.forEach(item => {
@@ -193,7 +373,7 @@ GenderBtn.forEach(item => {
     let ClickBtn = event.target.innerHTML;
     mainSliderResultDivH2.innerHTML = "";
     mainSliderResultDivH2.innerHTML = `${ClickBtn} Anime List`;
-    MainSliderItem.innerHTML = "";
+    MainSliderItem.style.display = "none";
     mainSliderResultDiv.innerHTML = "";
 
             if(ClickBtn == "Action"){
@@ -201,68 +381,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("action");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
             
             if(ClickBtn == "Adventure"){
@@ -270,68 +670,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("adventure");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Comedy"){
@@ -339,68 +959,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("comedy");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Demon"){
@@ -408,68 +1248,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("demon");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
         
             if(ClickBtn == "Drama"){
@@ -477,68 +1537,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("drama");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Ecchi"){
@@ -546,68 +1826,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("ecchi");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Fantasy"){
@@ -615,68 +2115,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("fantasy");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Game"){
@@ -684,68 +2404,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("game");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Harem"){
@@ -753,68 +2693,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("harem");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Horror"){
@@ -822,68 +2982,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("horror");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Magic"){
@@ -891,68 +3271,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("magic");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Mecha"){
@@ -960,68 +3560,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("mecha");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Military"){
@@ -1029,68 +3849,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("military");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Music"){
@@ -1098,68 +4138,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("music");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Romance"){
@@ -1167,68 +4427,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("romance");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "School"){
@@ -1236,68 +4716,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("school");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Scifi"){
@@ -1305,68 +5005,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("scifi");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Shoujo"){
@@ -1374,68 +5294,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("shoujo");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Slice of life"){
@@ -1443,68 +5583,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("slice of life");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Sport"){
@@ -1512,68 +5872,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("sport");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Supernatural"){
@@ -1581,68 +6161,288 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("supernatural");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "Vampire"){
@@ -1650,280 +6450,1236 @@ GenderBtn.forEach(item => {
                     return movie.geners.toLowerCase().includes("vampire");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
+                    mainSliderResultDiv.innerHTML += ResultDiv;
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
+            }
+
+            if(ClickBtn == "Isekai"){
+                let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
+                    return movie.geners.toLowerCase().includes("isekai");
+                })
+                console.log(filteredMovie);
+                    let ResultDiv;
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
+                    if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
-                    }
-    
-                   
-    
+                    }else{
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "2022"){
                 let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
-                    return movie.year.toLowerCase().includes("2022");
+                    return movie.geners.toLowerCase().includes("2022");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "2021"){
                 let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
-                    return movie.year.toLowerCase().includes("2021");
+                    return movie.geners.toLowerCase().includes("2021");
                 })
                 console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
                     let ResultDiv;
-    
+      
+                    if(filteredMovie.length > 16){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button class="page-item btn btn-primary m-1" id="button2" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2</button>`
+                      }
+                      
+                      if(filteredMovie.length > 32){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button3" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">3</button>`
+                      }
+                      
+                      if(filteredMovie.length > 48){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button4" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">4</button>`
+                      }
+
+                      if(filteredMovie.length > 64){
+                        mainSliderResultDivPagination.innerHTML += `
+                        <button class="page-item btn btn-primary m-1" id="button5" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">5</button>`
+                      }
+                      
+                      for (let i = 0; i < 16; i++) {
+                                  const Src = filteredMovie[i].src;
+                                  const Name = filteredMovie[i].name;
+                                  const Year = filteredMovie[i].year;
+                                  const Href = filteredMovie[i].href;
+                                  let animeType = filteredMovie[i].animetype;
+                                  let sub = filteredMovie[i].sub;
+                                  let rating = filteredMovie[i].rating;
+                                  
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }
-    
-                   
-    
+                                    ResultDiv = `
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                    <a href="${Href}" class="text-decoration-none" target="_blank">
+                                      <div class="card bg-black text-warning overflow-hidden">
+                                          <div class="position-relative">
+                                            <img src="${Src}" class="card-img-top">
+                                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                              </div>
+                                              <div id="overlay" class="overlay">
+                                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                              </div>
+                                          </div>
+                                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                            <h6>(${Year})</h6>
+                                        </div>
+                                    </div>
+                                    </a>
+                               </div>`
+                                  
+                              
+                    } 
                     mainSliderResultDiv.innerHTML += ResultDiv;
-                }
+                      }
+                      
+                      
+                      for (let i = 16; i < 32; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv2.innerHTML += ResultDiv;
+                        
+                      
+                      }
+                      
+                      for (let i = 32; i < 48; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv3.innerHTML += ResultDiv;
+                      
+                      }
+
+                      for (let i = 48; i < 64; i++) {
+                        const Src = filteredMovie[i].src;
+                        const Name = filteredMovie[i].name;
+                        const Year = filteredMovie[i].year;
+                        const Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
+                        </div>
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                                        ResultDiv = `
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                                        <a href="${Href}" class="text-decoration-none" target="_blank">
+                                          <div class="card bg-black text-warning overflow-hidden">
+                                              <div class="position-relative">
+                                                <img src="${Src}" class="card-img-top">
+                                                  <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                                     <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                                  </div>
+                                                  <div id="overlay" class="overlay">
+                                                     <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                                  </div>
+                                              </div>
+                                          <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                                          <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                                            <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                                <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                                <h6>(${Year})</h6>
+                                            </div>
+                                        </div>
+                                        </a>
+                                   </div>`
+                                      
+                                  
+                        } 
+                        mainSliderResultDiv4.innerHTML += ResultDiv;
+                      
+                      }
+    
+                
             }
 
             if(ClickBtn == "2020"){
-                let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
-                    return movie.year.toLowerCase().includes("2020");
-                })
-                console.log(filteredMovie);
-                for (let i = 0; i < filteredMovie.length; i++) {
-                    let Src = filteredMovie[i].src;
-                    let Year = filteredMovie[i].year;
-                    let Name = filteredMovie[i].shortName;
-                    let Href = filteredMovie[i].href;
-    
-                    let ResultDiv;
-    
-                    if(SearchBox.classList.contains("anime-page")){
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
+                    let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
+                        return movie.geners.toLowerCase().includes("2010");
+                    })
+                    console.log(filteredMovie);
+                    for (let i = 0; i < filteredMovie.length; i++) {
+                        let Src = filteredMovie[i].src;
+                        let Year = filteredMovie[i].year;
+                        let Name = filteredMovie[i].shortName;
+                        let Href = filteredMovie[i].href;
+                        let animeType = filteredMovie[i].animetype;
+                        let sub = filteredMovie[i].sub;
+                        let rating = filteredMovie[i].rating;
+        
+                        let ResultDiv;
+        
+                        if(SearchBox.classList.contains("anime-page")){
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                    <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                      <div class="card bg-black text-warning overflow-hidden">
+                          <div class="position-relative">
+                            <img src="../../${Src}" class="card-img-top">
+                              <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                 <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                              </div>
+                              <div id="overlay" class="overlay">
+                                 <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                              </div>
+                          </div>
+                      <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                      <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                        <div class="d-flex justify-content-between flex-column p-2 text-center">
+                            <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                            <h6>(${Year})</h6>
                         </div>
-                        </a>
-                      </div>
-                      
-                        `
-                    }else{
-                        ResultDiv = `
-                        
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
-                      </div>
-                      
-                        `
+                    </div>
+                    </a>
+               </div>
+                          
+                            `
+                        }else{
+                            ResultDiv = `
+                            
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                          <a href="${Href}" class="text-decoration-none" target="_blank">
+                            <div class="card bg-black text-warning overflow-hidden">
+                                <div class="position-relative">
+                                  <img src="${Src}" class="card-img-top">
+                                    <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                       <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                    </div>
+                                    <div id="overlay" class="overlay">
+                                       <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                            <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                              <div class="d-flex justify-content-between flex-column p-2 text-center">
+                                  <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                                  <h6>(${Year})</h6>
+                              </div>
+                          </div>
+                          </a>
+                     </div>
+                          
+                            `
+                        }
+        
+                       
+        
+                        mainSliderResultDiv.innerHTML += ResultDiv;
                     }
-    
-                   
-    
-                    mainSliderResultDiv.innerHTML += ResultDiv;
-                }
             }
 
             if(ClickBtn == "2019"){
                 let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
-                    return movie.year.toLowerCase().includes("2019");
+                    return movie.geners.toLowerCase().includes("2019");
                 })
                 console.log(filteredMovie);
                 for (let i = 0; i < filteredMovie.length; i++) {
@@ -1931,55 +7687,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -1992,7 +7755,7 @@ GenderBtn.forEach(item => {
 
             if(ClickBtn == "2018"){
                 let filteredMovie = AnimeMovieAndSeriesArray.filter((movie) =>{
-                    return movie.year.toLowerCase().includes("2018");
+                    return movie.geners.toLowerCase().includes("2018");
                 })
                 console.log(filteredMovie);
                 for (let i = 0; i < filteredMovie.length; i++) {
@@ -2000,55 +7763,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2069,55 +7839,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2138,55 +7915,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2207,55 +7991,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2276,55 +8067,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2345,55 +8143,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2414,55 +8219,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2483,55 +8295,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2552,55 +8371,62 @@ GenderBtn.forEach(item => {
                     let Year = filteredMovie[i].year;
                     let Name = filteredMovie[i].shortName;
                     let Href = filteredMovie[i].href;
+                    let animeType = filteredMovie[i].animetype;
+                    let sub = filteredMovie[i].sub;
+                    let rating = filteredMovie[i].rating;
     
                     let ResultDiv;
     
                     if(SearchBox.classList.contains("anime-page")){
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
-                        <div class="card bg-black text-warning overflow-hidden">
-                            <img src="../${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
-                            </div>
-                        </div>
-                        </a>
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                <a href="../../${Href}" class="text-decoration-none" target="_blank">
+                  <div class="card bg-black text-warning overflow-hidden">
+                      <div class="position-relative">
+                        <img src="../../${Src}" class="card-img-top">
+                          <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                             <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                          </div>
+                          <div id="overlay" class="overlay">
+                             <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                          </div>
                       </div>
+                  <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                  <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                    <div class="d-flex justify-content-between flex-column p-2 text-center">
+                        <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                        <h6>(${Year})</h6>
+                    </div>
+                </div>
+                </a>
+           </div>
                       
                         `
                     }else{
                         ResultDiv = `
                         
-                        <div id="HunterXHunter" class="col-6 col-sm-4 col-md-4 col-lg-3">
-                        <a href="${Href}" class="text-decoration-none">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+                      <a href="${Href}" class="text-decoration-none" target="_blank">
                         <div class="card bg-black text-warning overflow-hidden">
-                            <img src="${Src}" class="card-img-top" alt=""><div class="overlay ">
-                  
-                                        <i class="bi bi-play-circle my-auto"></i>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                          <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                                        </svg>
-                                      
-                                      </div>
-                              <div class="d-flex justify-content-between flex-column bg-gradient p-2 text-center">
-                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
-                              <h6 class="">(${Year})</h6>
+                            <div class="position-relative">
+                              <img src="${Src}" class="card-img-top">
+                                <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
+                                   <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
+                                </div>
+                                <div id="overlay" class="overlay">
+                                   <ion-icon size="large" name="play-circle-outline"></ion-icon>
+                                </div>
                             </div>
-                        </div>
-                        </a>
+                        <span class="badge bg-warning text-black position-absolute m-lg-1 m-md-1">${animeType}</span>
+                        <span class="badge bg-warning text-dark position-absolute bot end-0 m-lg-1 m-md-1">${sub}</span>        
+                          <div class="d-flex justify-content-between flex-column p-2 text-center">
+                              <h5 class="text-white border border-top-0 border-start-0 border-end-0 border-bottom-1">${Name}</h5>
+                              <h6>(${Year})</h6>
+                          </div>
                       </div>
+                      </a>
+                 </div>
                       
                         `
                     }
@@ -2610,6 +8436,8 @@ GenderBtn.forEach(item => {
                     mainSliderResultDiv.innerHTML += ResultDiv;
                 }
             }
+
+            
     })
 })
 
@@ -2631,9 +8459,10 @@ GenderBtn.forEach(item => {
 
 /*Year button*/
 
-document.querySelectorAll('.card-img-top').forEach(item => {
-    item.addEventListener('click', event => {
-      console.log(event.target.id)
-    })
-  })
-  
+// document.querySelectorAll('.card-img-top').forEach(item => {
+//     item.addEventListener('click', event => {
+//       console.log(event.target.id)
+//     })
+//   })
+
+
