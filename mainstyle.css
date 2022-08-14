@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: #0E0E0E;
     opacity: 0.9;
+    overflow-x: hidden;
 }
 
 
@@ -104,6 +105,27 @@ li{
     
 }
 
+.nav-item:hover{
+ background-color: #333;
+}
+@media(max-width: 1100px){
+    
+    .dropdown-item{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .nav-item{
+        border:solid #ffdb01;
+        border-width: 1px 0px 0px 0px;
+        width: 100%;
+    }
+
+    #News{
+        border-bottom: 1px solid #ffdb01;
+    }
+}
+
 @media(max-width: 980px){
     h1{
         font-size:3vw
@@ -148,10 +170,6 @@ li{
         height: 147rem;
     }
 
-    .dropdown-item{
-        width: 100%;
-        border-radius: 0;
-    }
 
     #SearchBox , #SearchBoxMain{
         width: 100%;
@@ -342,9 +360,14 @@ li{
         font-size: 3.5vw;
     }
     .badge{
-        padding: 2px;
-        border-radius: 4px;
+        padding: 1px;
+        border-radius: 2px;
         margin: 2px;
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+    .page-item{
+        
     }
     .Mycarousel-Caption h4,.LoveIsWar-Mycarousel-Caption h4{
         font-size: 2.35vw;
@@ -432,8 +455,8 @@ li{
 }
 
 .dropdown-item:hover{
-    background-color: skyblue;
-    color: #0E0E0E;
+    background-color: #444;
+    cursor: pointer;
 }
 
 #Website-logo{
@@ -464,6 +487,18 @@ li{
     
 }
 
+.SearchResultItem:hover{
+    background-color: #444;
+}
+
+#ShowAllResult{
+    display: none;
+}
+
+#BackArrow{
+    display: none;
+    border-radius: 5px;
+}
 /*nav Bar */
 
 /*main slider*/
@@ -730,5 +765,15 @@ body {
     opacity: 0.8;
 }
 
+/*Footer*/
+#Website-logo-footer{
+    width: 7rem;
+}
 
+/*Footer*/
 
+#footer{
+    -moz-box-shadow: 0 -5px 6px rgba(51, 51, 51, 0.5);
+    -webkit-box-shadow: 0 -5px 6px rgba(51, 51, 51, 0.5);
+    box-shadow: 0 -5px 6px rgba(51, 51, 51, 0.5);
+}

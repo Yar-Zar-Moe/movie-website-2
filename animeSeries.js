@@ -28,7 +28,7 @@
   }
   
   for (let i = 0; i < 16; i++) {
-              const Src = AnimeSlideSeries[i].src;
+              const Source = AnimeSlideSeries[i].Source;
               const Name = AnimeSlideSeries[i].name;
               const Year = AnimeSlideSeries[i].year;
               const Href = AnimeSlideSeries[i].href;
@@ -40,7 +40,7 @@
                 <a href="${Href}" class="text-decoration-none" target="_blank">
                   <div class="card bg-black text-warning overflow-hidden">
                       <div class="position-relative">
-                        <img src="${Src}" class="card-img-top">
+                        <img src="${Source}" class="card-img-top">
                           <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
                              <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
                           </div>
@@ -65,7 +65,7 @@
   
   
   for (let i = 16; i < 32; i++) {
-    const Src = AnimeSlideSeries[i].src;
+    const Source = AnimeSlideSeries[i].Source;
     const Name = AnimeSlideSeries[i].name;
     const Year = AnimeSlideSeries[i].year;
     const Href = AnimeSlideSeries[i].href;
@@ -77,7 +77,7 @@
       <a href="${Href}" class="text-decoration-none" target="_blank">
         <div class="card bg-black text-warning overflow-hidden">
             <div class="position-relative">
-              <img src="${Src}" class="card-img-top">
+              <img src="${Source}" class="card-img-top">
                 <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
                    <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
                 </div>
@@ -101,7 +101,7 @@
   }
   
   for (let i = 32; i < 48; i++) {
-    const Src = AnimeSlideSeries[i].src;
+    const Source = AnimeSlideSeries[i].Source;
     const Name = AnimeSlideSeries[i].name;
     const Year = AnimeSlideSeries[i].year;
     const Href = AnimeSlideSeries[i].href;
@@ -113,7 +113,7 @@
       <a href="${Href}" class="text-decoration-none" target="_blank">
         <div class="card bg-black text-warning overflow-hidden">
             <div class="position-relative">
-              <img src="${Src}" class="card-img-top">
+              <img src="${Source}" class="card-img-top">
                 <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
                    <ion-icon style="font-size: 16px;" name="star"></ion-icon><span class="ms-1">${rating}</span>
                 </div>
