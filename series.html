@@ -118,62 +118,55 @@
 <!--Navbar-->
 
 <div id="mainSlider-item-1" class="slider__content">
-  <!--Movie Cards-->
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
-    <div class="carousel-indicators d-none">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
- 
-    <div class="d-flex flex-row justify-content-between mt-3 align-items-end">
-      <h2 class="ms-2 text-color-yellow text-start">Anime Series</h2>
-    </div>
- 
-    <div class="carousel-inner">
- 
-    <!--series-card carousel-item 1-->
-      <div class="carousel-item active movieSeries-carousel">
-       <div id="anime-series-slide-1" class="row g-1 p-2">
- 
-       </div>
- 
-      </div>
-         <!--series carousel-item 1-->
- 
-        <!--series carousel-item 2-->
-      <div class="carousel-item movieSeries-carousel">
-       <div id="anime-series-slide-2" class="row g-1 p-2">
- 
-       </div>
-      </div>
-       <!--series carousel-item 2-->
- 
-     <!--series carousel-item 3-->
-      <div class="carousel-item movieSeries-carousel">
-       <div id="anime-series-slide-3" class="row g-1 p-2">
- 
-       </div>
-      </div>
-       <!--series carousel-item 4-->
- 
- 
-    </div>  
+  
+  <div class="d-flex flex-row w-100 justify-content-between mt-2">
+    <h2 class="ms-2 text-color-yellow">Anime Series</h2>
+    <h2 class="me-2 text-white">Page <span id="CURRENTPAGE">1</span> Of <span id="TOTALPAGE"></span></h2>
   </div>
   
-  
-  <!--sereis-card Pagination-->
-  <navaria-label="Page navigation example style="width: 100%;">
-    <ul id="seriespagination" class="pagination d-flex justify-content-center mt-2">
-  
-      <button class="page-item btn btn-outline-warning m-1" id="button1" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
-      
-  
-    </ul>
-  </navaria-label=>
-  <!--series-card Pagination-->
+
+  <div id="anime-series-carousel" class="d-flex flex-row">
+
+  <div class="slide-item p-1">
+    <div id="anime-series-slide-1" class="row g-1 g-lg-2 p-2">
+     
+    </div>
+  </div>
+
+  <div class="slide-item p-1">
+    <div id="anime-series-slide-2" class="row g-1 g-lg-2 p-2">
+     
+    </div> 
+  </div>
+
+  <div class="slide-item p-1">
+    <div id="anime-series-slide-3" class="row g-1 g-lg-2 p-2">
+     
+    </div>
+  </div>
+
+  <div class="slide-item p-1">
+    <div id="anime-series-slide-4" class="row g-1 g-lg-2 p-2">
+     
+    </div>
+  </div>
+
+  <div class="slide-item p-1">
+    <div id="anime-series-slide-5" class="row g-1 g-lg-2 p-2">
+     
+    </div>
+  </div>
+
+    
+</div>
+<navaria-label="Page navigation example style="width: 100%;">
+<ul id="seriespagination" class="pagination d-flex justify-content-center mt-2">
  
- <!--series Cards-->
+
+</ul>
+</navaria-label=>
+
+  
     <!--Footer-->
     <div id="footer" class="w-100 p-3 bg-black">
 
@@ -219,11 +212,15 @@
 
 <!--Anime Series-->
 
-<div id="MainSliderResultDivWithBack" class="d-flex flex-row ms-1">
-  <button class="bg-warning text-black mt-2" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
-<h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
+<div id="MainSliderResultDivWithBack" class=" ms-1">
+  <button class="badge bg-warning text-black mt-2 d-inline" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
+  <div class="d-flex flex-row justify-content-between">
+    <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
   
-</h2>
+    </h2>
+    <h2 class="me-2 text-white" id="PageOf">Page <span id="CurrentPage">1</span> of <span id="TotalPage">4</span></h2>
+  </div>
+
 </div>
 
       <!--Main Slide Result-->
@@ -234,13 +231,13 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-     
+    
      
         <div class="carousel-inner">
      
         <!--movie-card carousel-item 1-->
           <div class="carousel-item active movieSeries-carousel">
-           <div id="mainSliderResultDiv" class="row g-1 p-2">
+           <div id="mainSliderResultDiv" class="row g-1 g-lg-2 p-2">
      
            </div>
      
@@ -249,7 +246,7 @@
      
             <!--movie carousel-item 2-->
           <div class="carousel-item movieSeries-carousel">
-           <div id="mainSliderResultDiv2" class="row g-1 p-2">
+           <div id="mainSliderResultDiv2" class="row g-1 g-lg-2 p-2">
      
            </div>
           </div>
@@ -257,13 +254,13 @@
      
          <!--movie carousel-item 3-->
           <div class="carousel-item movieSeries-carousel">
-           <div id="mainSliderResultDiv3" class="row g-1 p-2">
+           <div id="mainSliderResultDiv3" class="row g-1 g-lg-2 p-2">
      
            </div>
           </div>
            <!--movie carousel-item 4-->
            <div class="carousel-item movieSeries-carousel">
-            <div id="mainSliderResultDiv4" class="row g-1 p-2">
+            <div id="mainSliderResultDiv4" class="row g-1 g-lg-2 p-2">
       
             </div>
            </div>
@@ -282,6 +279,18 @@
 </navaria-label=>
 <!--movie-card Pagination-->
 
+
+<style>
+#anime-series-carousel{
+    width: 500vw;
+    position: relative;
+    left: 0;
+  }
+
+  .slide-item{
+    width: 100vw;
+  }
+</style>
 
 <script src="bootstrap/bootstrap.bundle.min.js"></script>
 <script src="bootstrap/bootstrap.min.js"></script>

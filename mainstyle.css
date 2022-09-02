@@ -4,8 +4,12 @@ body{
     background-color: #0E0E0E;
     opacity: 0.9;
     overflow-x: hidden;
+    user-select: none;
 }
 
+#PageOf{
+    display: none;
+}
 
 h1{
 	font-size:2.8vw
@@ -290,6 +294,10 @@ li{
     li{
         font-size: medium;
     }
+    
+    #CurrentEpisode{
+        font-size:x-small ;
+    }
     #overlay{
         position: absolute;
         left: 43%;
@@ -359,9 +367,11 @@ li{
     span{
         font-size: 3.5vw;
     }
+    #CurrentEpisode{
+        font-size:x-small ;
+    }
     .badge{
         padding: 1px;
-        border-radius: 2px;
         margin: 2px;
         font-size: 2.8vw;
         font-weight: 600;
@@ -393,6 +403,7 @@ li{
         height: 210px;
     }
 
+    
     /* #MainSlider{
         height: 270vh;
     } */
@@ -497,8 +508,9 @@ li{
 
 #BackArrow{
     display: none;
-    border-radius: 5px;
 }
+
+
 /*nav Bar */
 
 /*main slider*/
@@ -715,7 +727,7 @@ body {
 .card-img-top:hover{
     transform: scale(1.1);
     opacity: 0.4;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .card-img-top:hover~.overlay{
@@ -727,7 +739,7 @@ body {
 .overlay:hover~.card-img-top{
     transform: scale(1.1);
     opacity: 0.4;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 @media(max-width:400px){

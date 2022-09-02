@@ -234,7 +234,7 @@
       
       <!--download-->
    
-      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://sbspeed.com/e/vezso7i67b5x.html" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe></div>
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://sbspeed.com/e/vezso7i67b5x.html" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe><p class="position-absolute top-0 start-0 text-white" id="CurrentEpisode">Sword Art OnlineSeason2 ep 1</p></div>
     
       <ul class="mt-4 m-3 pt-2 border-top border-dark">
         <li>Episode 1 - <a href="#VideoPlayDiv" class="Episodes"> episode1</a></li>
@@ -314,11 +314,17 @@
 <!--Footer-->
       </div>
 
-      <div id="MainSliderResultDivWithBack" class="d-flex flex-row ms-1">
-        <button class="bg-warning text-black mt-2" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
-      <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
+      <div id="MainSliderResultDivWithBack" class=" ms-1">
+        <button class="badge bg-warning text-black mt-2 d-inline" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
+        <div class="d-flex flex-row justify-content-between">
+          <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
         
-      </h2>
+          </h2>
+          <h2 class="me-2 text-white" id="PageOf">Page <span id="CurrentPage">1</span> of <span id="TotalPage">4</span></h2>
+        </div>
+      
+    </div>
+      
     </div>
 
               <!--Main Slide Result-->
@@ -386,58 +392,83 @@
 <script>
   let Episodes = document.querySelectorAll(".Episodes")
   let VideoPlayDiv = document.getElementById("VideoPlayDiv");
+  let CurrentEpisode = document.getElementById("CurrentEpisode")
 
   Episodes.forEach(item => {
 item.addEventListener("click" , (event)=>{
 let ClickBtn = event.target.innerHTML;
 if(ClickBtn == "episode1"){
 VideoPlayDiv.src = "https://sbspeed.com/e/vezso7i67b5x.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 1"
 }if(ClickBtn == "episode2"){
 VideoPlayDiv.src = "https://sbspeed.com/e/rwc7kyfsqmpt.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 2"
 }if(ClickBtn == "episode3"){
 VideoPlayDiv.src = "https://sbspeed.com/e/94hhe7hdvq6p.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 3"
 }if(ClickBtn == "episode4"){
 VideoPlayDiv.src = "https://sbspeed.com/e/2xqdoczufyc7.html" ;
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 4"
 }if(ClickBtn == "episode5"){
 VideoPlayDiv.src = "https://sbspeed.com/e/nspkbddjc1hp.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 5"
 }if(ClickBtn == "episode6"){
 VideoPlayDiv.src = "https://sbspeed.com/e/ddcblli9c2yd.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 6"
 }if(ClickBtn == "episode7"){
 VideoPlayDiv.src = "https://sbspeed.com/e/5g915hinwg4x.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 7"
 }if(ClickBtn == "episode8"){
 VideoPlayDiv.src = "https://sbspeed.com/e/tvkublh52ehl.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 8"
 }if(ClickBtn == "episode9"){
 VideoPlayDiv.src = "https://sbspeed.com/e/sxsi1s54obfm.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 9"
 }if(ClickBtn == "episode10"){
 VideoPlayDiv.src = "https://sbspeed.com/e/vktseyq4so01.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 10"
 }if(ClickBtn == "episode11"){
 VideoPlayDiv.src = "https://sbspeed.com/e/yhxa7bq5drfn.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 11"
 }if(ClickBtn == "episode12"){
 VideoPlayDiv.src = "https://sbspeed.com/e/rvy4w4ijk7zo.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 12"
 }if(ClickBtn == "episode13"){
 VideoPlayDiv.src = "https://sbspeed.com/e/eugg439oq1qn.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 13"
 }if(ClickBtn == "episode14"){
 VideoPlayDiv.src = "https://sbspeed.com/e/w2ci3czujxkv.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 14"
 }if(ClickBtn == "episode15"){
 VideoPlayDiv.src = "https://sbspeed.com/e/lk1e79n5ke80.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 15"
 }if(ClickBtn == "episode16"){
 VideoPlayDiv.src = "https://sbspeed.com/e/1wcpd1j71qqu.html" ;
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 16"
 }if(ClickBtn == "episode17"){
 VideoPlayDiv.src = "https://sbspeed.com/e/efhxqhzqcasl.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 17"
 }if(ClickBtn == "episode18"){
 VideoPlayDiv.src = "https://sbspeed.com/e/pid7knicencf.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 18"
 }if(ClickBtn == "episode19"){
 VideoPlayDiv.src = "https://sbspeed.com/e/m2k1nxnjj7q8.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 19"
 }if(ClickBtn == "episode20"){
 VideoPlayDiv.src = "https://sbspeed.com/e/qbakybnldr3y.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 20"
 }if(ClickBtn == "episode21"){
 VideoPlayDiv.src = "https://sbspeed.com/e/zmmczx6nm22i.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 21"
 }if(ClickBtn == "episode22"){
 VideoPlayDiv.src = "https://sbspeed.com/e/iregvad2ildl.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 22"
 }if(ClickBtn == "episode23"){
 VideoPlayDiv.src = "https://sbspeed.com/e/bexx5f90av44.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 23"
 }if(ClickBtn == "episode24"){
 VideoPlayDiv.src = "https://sbspeed.com/e/54edataprv0d.html";
+CurrentEpisode.innerHTML = "Sword Art OnlineSeason2 ep 24"
 }
 })
 })

@@ -255,7 +255,7 @@
     
     <!--download-->
    
-    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject" class="mb-2"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://sbthe.com/e/iawzq7zfhj6w.html" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe></div>
+    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject" class="mb-2"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://sbthe.com/e/iawzq7zfhj6w.html" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe><p class="position-absolute top-0 start-0 text-white" id="CurrentEpisode">Spy X Family ep 1</p></div>
 
     <hr class="w-100 w-lg-50 mt-3"></hr>
 
@@ -321,11 +321,15 @@
   </div>
         
 
-  <div id="MainSliderResultDivWithBack" class="d-flex flex-row ms-1">
-    <button class="bg-warning text-black mt-2" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
-  <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
+  <div id="MainSliderResultDivWithBack" class=" ms-1">
+    <button class="badge bg-warning text-black mt-2 d-inline" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
+    <div class="d-flex flex-row justify-content-between">
+      <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
     
-  </h2>
+      </h2>
+      <h2 class="me-2 text-white" id="PageOf">Page <span id="CurrentPage">1</span> of <span id="TotalPage">4</span></h2>
+    </div>
+  
 </div>
 
               <!--Main Slide Result-->
@@ -393,34 +397,47 @@
 <script>
   let Episodes = document.querySelectorAll(".Episodes")
   let VideoPlayDiv = document.getElementById("VideoPlayDiv");
+  let CurrentEpisode = document.getElementById("CurrentEpisode")
 
   Episodes.forEach(item => {
 item.addEventListener("click" , (event)=>{
 let ClickBtn = event.target.innerHTML;
 if(ClickBtn == "episode1"){
 VideoPlayDiv.src = "https://sbthe.com/e/iawzq7zfhj6w.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 1"
 }if(ClickBtn == "episode2"){
 VideoPlayDiv.src = "https://sbthe.com/e/bsjfjn2iegjc.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 2"
 }if(ClickBtn == "episode3"){
 VideoPlayDiv.src = "https://sbthe.com/e/afi9hnub9yhn.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 3"
 }if(ClickBtn == "episode4"){
 VideoPlayDiv.src = "https://sbthe.com/e/ija72tuaolgd.html" ;
+CurrentEpisode.innerHTML = "Spy X Family ep 4"
 }if(ClickBtn == "episode5"){
 VideoPlayDiv.src = "https://sbthe.com/e/69rq0c9gswu9.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 5"
 }if(ClickBtn == "episode6"){
 VideoPlayDiv.src = "https://sbthe.com/e/ef8asbnqfk42.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 6"
 }if(ClickBtn == "episode7"){
 VideoPlayDiv.src = "https://sbthe.com/e/rpzxjdwvsveu.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 7"
 }if(ClickBtn == "episode8"){
 VideoPlayDiv.src = "https://sbthe.com/e/suxrqfjwu927.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 8"
 }if(ClickBtn == "episode9"){
 VideoPlayDiv.src = "https://sbthe.com/e/6w8o8plhufb1.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 9"
 }if(ClickBtn == "episode10"){
 VideoPlayDiv.src = "https://sbthe.com/e/3o3lvl6u056f.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 10"
 }if(ClickBtn == "episode11"){
 VideoPlayDiv.src = "https://sbthe.com/e/6sutqeb83x3x.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 11"
 }if(ClickBtn == "episode12"){
 VideoPlayDiv.src = "https://sbthe.com/e/s6ds6knamvdv.html";
+CurrentEpisode.innerHTML = "Spy X Family ep 12"
 }
 })
 })

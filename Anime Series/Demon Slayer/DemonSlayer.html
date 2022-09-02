@@ -276,10 +276,10 @@
       
       <!--download-->
    
-      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://sbthe.com/e/y319ortqp712.html" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe></div>
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://sbthe.com/e/y319ortqp712.html" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe><p class="position-absolute top-0 start-0 text-white" id="CurrentEpisode">Demon Slayer ep 1</p></div>
     
       <ul class="mt-4 m-3 pt-2 border-top border-dark">
-        <li>Episode 1 - <a href="#VideoPlayDiv" class="Episodes"> episode1</a></li>
+        <li>Episode 1 - <a href="#VideoPlayDiv" class="Episodes">episode1</a></li>
         <li>Episode 2 - <a href="#VideoPlayDiv" class="Episodes">episode2</a></li>
         <li>Episode 3 - <a href="#VideoPlayDiv" class="Episodes">episode3</a></li>
         <li>Episode 4 - <a href="#VideoPlayDiv" class="Episodes">episode4</a></li>
@@ -355,11 +355,15 @@
 <!--Footer-->
       </div>
 
-      <div id="MainSliderResultDivWithBack" class="d-flex flex-row ms-1">
-        <button class="bg-warning text-black mt-2" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
-      <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
+      <div id="MainSliderResultDivWithBack" class=" ms-1">
+        <button class="badge bg-warning text-black mt-2 d-inline" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
+        <div class="d-flex flex-row justify-content-between">
+          <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
         
-      </h2>
+          </h2>
+          <h2 class="me-2 text-white" id="PageOf">Page <span id="CurrentPage">1</span> of <span id="TotalPage">4</span></h2>
+        </div>
+      
     </div>
 
               <!--Main Slide Result-->
@@ -427,62 +431,89 @@
 <script>
   let Episodes = document.querySelectorAll(".Episodes")
   let VideoPlayDiv = document.getElementById("VideoPlayDiv");
+  let CurrentEpisode = document.getElementById("CurrentEpisode")
 
   Episodes.forEach(item => {
 item.addEventListener("click" , (event)=>{
 let ClickBtn = event.target.innerHTML;
 if(ClickBtn == "episode1"){
 VideoPlayDiv.src = "https://sbthe.com/e/y319ortqp712.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 1"
 }if(ClickBtn == "episode2"){
 VideoPlayDiv.src = "https://sbthe.com/e/t55375fi7yb4.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 2"
 }if(ClickBtn == "episode3"){
 VideoPlayDiv.src = "https://sbthe.com/e/o3aqijgonm3y.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 3"
 }if(ClickBtn == "episode4"){
 VideoPlayDiv.src = "https://sbthe.com/e/p7k7og5qxdzl.html" ;
+CurrentEpisode.innerHTML = "Demon Slayer ep 4"
 }if(ClickBtn == "episode5"){
 VideoPlayDiv.src = "https://sbthe.com/e/v3xk8jw32kpn.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 5"
 }if(ClickBtn == "episode6"){
 VideoPlayDiv.src = "https://sbthe.com/e/wfu6z80cb8r1.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 6"
 }if(ClickBtn == "episode7"){
 VideoPlayDiv.src = "https://sbthe.com/e/tbhekjacvk2x.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 7"
 }if(ClickBtn == "episode8"){
 VideoPlayDiv.src = "https://sbthe.com/e/uxnl70fvze9a.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 8"
 }if(ClickBtn == "episode9"){
 VideoPlayDiv.src = "https://sbthe.com/e/tpcbdvvaj9tb.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 9"
 }if(ClickBtn == "episode10"){
 VideoPlayDiv.src = "https://sbthe.com/e/8cap70n5ye2f.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 10"
 }if(ClickBtn == "episode11"){
 VideoPlayDiv.src = "https://sbthe.com/e/u4dl3sm98zn8.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 11"
 }if(ClickBtn == "episode12"){
 VideoPlayDiv.src = "https://sbthe.com/e/opw7r21gwf7e.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 12"
 }if(ClickBtn == "episode13"){
 VideoPlayDiv.src = "https://sbthe.com/e/05cmqsus7ctg.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 13"
 }if(ClickBtn == "episode14"){
 VideoPlayDiv.src = "https://sbthe.com/e/8f8mwh9kmefz.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 14"
 }if(ClickBtn == "episode15"){
 VideoPlayDiv.src = "https://sbthe.com/e/1c1h3c2x19mi.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 15"
 }if(ClickBtn == "episode16"){
 VideoPlayDiv.src = "https://sbthe.com/e/5y31o4pmofk6.html" ;
+CurrentEpisode.innerHTML = "Demon Slayer ep 16"
 }if(ClickBtn == "episode17"){
 VideoPlayDiv.src = "https://sbthe.com/e/zv7w9y9r9lds.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 17"
 }if(ClickBtn == "episode18"){
 VideoPlayDiv.src = "https://sbthe.com/e/895gahdgrl88.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 18"
 }if(ClickBtn == "episode19"){
 VideoPlayDiv.src = "https://sbthe.com/e/2q6ivlnhj3tz.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 19"
 }if(ClickBtn == "episode20"){
 VideoPlayDiv.src = "https://sbthe.com/e/vxzq8k35x44p.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 20"
 }if(ClickBtn == "episode21"){
 VideoPlayDiv.src = "https://sbthe.com/e/fvw0kvpf0tnn.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 21"
 }if(ClickBtn == "episode22"){
 VideoPlayDiv.src = "https://sbthe.com/e/96045v0c5l26.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 22"
 }if(ClickBtn == "episode23"){
 VideoPlayDiv.src = "https://sbthe.com/e/i3znax1h5p1x.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 23"
 }if(ClickBtn == "episode24"){
 VideoPlayDiv.src = "https://sbthe.com/e/6royasldi426.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 24"
 }if(ClickBtn == "episode25"){
 VideoPlayDiv.src = "https://sbthe.com/e/tu9c5axqvrtw.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 25"
 }if(ClickBtn == "episode26"){
 VideoPlayDiv.src = "https://sbthe.com/e/ckq69jovlbh3.html";
+CurrentEpisode.innerHTML = "Demon Slayer ep 26"
 }
 })
 })

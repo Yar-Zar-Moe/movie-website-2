@@ -1,0 +1,497 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaichou wa Maid-sama</title>
+  <link rel="stylesheet" href="../../bootstrap/bootstrap.css">
+  <link rel="icon" type="image/x-icon" href="../../images/Night_Raid_Logo.jpg">
+  <link rel="stylesheet" href="../../mainstyle.css">
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav style="background-color:rgba(21, 22, 27)" class="navbar navbar-expand-lg pt-3 pb-3 shadow-lg">
+      <div class="container-fluid">
+  
+        <div class="navbar-brand d-flex flex-row align-items-center">
+          <img id="Website-logo" class="border-end border-start" src="../../images/Studio_Project-removebg-preview.png" alt="">
+          <h1 style="" class="navbar-brand text-center d-flex flex-lg-row flex-column" id="name">
+            <div class="">Anime and Anime News</div>
+            <div class="">Myanmar</div>
+          </h1>
+        </div>
+    
+           <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+  
+            <a href="../../mainPage.html"><button id="Home" type="button" class="nav-item btn rounded-0 text-warning w-100">Home</button></a>
+  
+            <div class="dropdown">
+              <button class="btn nav-item dropdown-toggle w-100 text-warning rounded-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Genres
+              </button>
+              <ul style="height: 30vh;overflow-y:scroll;overflow-x: hidden;" class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                <li><a id="Action" class="btn dropdown-item">Action</a></li>
+                <li><a id="Adventure" class="dropdown-item">Adventure</a></li>
+                <li><a id="Comedy" class="btn dropdown-item">Comedy</a></li>
+                <li><a id="Demon" class="dropdown-item">Demon</a></li>
+                <li><a id="Drama" class="dropdown-item">Drama</a></li>
+                <li><a id="Ecchi" class="dropdown-item">Ecchi</a></li>
+                <li><a id="Fantasy" class="dropdown-item">Fantasy</a></li>
+                <li><a id="Game" class="dropdown-item">Game</a></li>
+                <li><a id="Harem" class="dropdown-item">Harem</a></li>
+                <li><a id="Horror" class="dropdown-item">Horror</a></li>
+                <li><a id="Magic" class="dropdown-item">Magic</a></li>
+                <li><a id="Mecha" class="dropdown-item">Mecha</a></li>
+                <li><a id="Military" class="dropdown-item">Military</a></li>
+                <li><a id="Music" class="dropdown-item">Music</a></li>
+                <li><a id="Romance" class="dropdown-item">Romance</a></li>
+                <li><a id="School" class="dropdown-item">School</a></li>
+                <li><a id="Scifi" class="dropdown-item">Scifi</a></li>
+                <li><a id="Shoujo" class="dropdown-item">Shoujo</a></li>
+                <li><a id="Slice of life" class="dropdown-item">Slice of life</a></li>
+                <li><a id="Sport" class="dropdown-item">Sport</a></li>
+                <li><a id="Supernatural" class="dropdown-item">Supernatural</a></li>
+                <li><a id="Vampire" class="dropdown-item">Vampire</a></li>
+                <li><a id="Isekai" class="dropdown-item">Isekai</a></li>              
+
+              </ul>
+            </div>
+  
+            <div class="dropdown">
+              <button class="btn nav-item dropdown-toggle w-100 text-warning rounded-0" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                Year
+              </button>
+              <ul style="height: 30vh;overflow-y:scroll;overflow-x: hidden;" class="dropdown-menu rounded-3 bg-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a id="2022" class="dropdown-item">2024</a></li>
+                <li><a id="2022" class="dropdown-item">2023</a></li>
+                <li><a id="2022" class="dropdown-item">2022</a></li>
+                <li><a id="2021" class="dropdown-item">2021</a></li>
+                <li><a id="2020" class="dropdown-item">2020</a></li>
+                <li><a id="2019" class="dropdown-item">2019</a></li>
+                <li><a id="2018" class="dropdown-item">2018</a></li>
+                <li><a id="2017" class="dropdown-item">2017</a></li>
+                <li><a id="2016" class="dropdown-item">2016</a></li>
+                <li><a id="2015" class="dropdown-item">2015</a></li>
+                <li><a id="2014" class="dropdown-item">2014</a></li>
+                <li><a id="2013" class="dropdown-item">2013</a></li>
+                <li><a id="2012" class="dropdown-item">2012</a></li>
+                <li><a id="2011" class="dropdown-item">2011</a></li>
+                <li><a id="2010" class="dropdown-item">2010</a></li>
+                <li><a id="2020" class="dropdown-item">2009</a></li>
+                <li><a id="2019" class="dropdown-item">2008</a></li>
+                <li><a id="2018" class="dropdown-item">2007</a></li>
+                <li><a id="2017" class="dropdown-item">2006</a></li>
+                <li><a id="2016" class="dropdown-item">2005</a></li>
+                <li><a id="2015" class="dropdown-item">2004</a></li>
+                <li><a id="2014" class="dropdown-item">2003</a></li>
+                <li><a id="2013" class="dropdown-item">2002</a></li>
+                <li><a id="2012" class="dropdown-item">2001</a></li>
+                <li><a id="2011" class="dropdown-item">2000</a></li>
+            </div>
+  
+          <a href="../../news.html"><button id="News" type="button" class="nav-item btn text-warning rounded-0 w-100">News</button>
+          </a>  
+             </ul>
+          
+             <div class="mainSearchBox ms-lg-1 col-12 col-sm-8 col-md-6">
+              <input id="MainSearchBox" type="text" class="w-75 anime-page" placeholder="Search">
+              <div class="mainSearchResultDiv bg-dark ">
+                <button id="ShowAllResult" class="btn btn-outline-secondary w-100 rounded-0 text-center">show all result</button>
+                <div id="MainSearchResult" class="">               
+               
+                  
+                </div>   
+              </div>
+             </div>
+            
+        </div>
+      </div>
+    </nav>
+  <!--Navbar-->
+
+  <div class="" id="mainSlider-item-1">
+  <div class="col-lg-10 p-lg-3 p-2 mx-auto bg-black rounded-3 shadow-lg text-warning mt-5">
+    <!--header-->
+            <div class="">
+                <h1 class="text-center pt-3 text-color-yellow ">Kaichou wa Maid-sama</h1>
+            </div>
+            <hr class="w-75 border border-2 border-warning mx-auto">
+    <!--header-->
+    
+  
+    <div class="d-flex flex-lg-row flex-column justify-content-between mt-lg-4">
+      <!--slide-->
+      <div id="carouselExampleDark" class="carousel col-11 col-lg-6 carousel-dark slide mt-4 mx-auto mx-lg-0" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="Kiacho wa maid-sama.jpg" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="Kiacho wa maid-sama img1.jpg" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="Kiacho wa maid-sama img2.jpg" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+
+      </div>
+<!--slide-->
+
+<div class="vr"></div>
+
+
+<div class="col-lg-5 col-11 mx-auto mx-lg-0 my-auto">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4 border p-lg-2 p-2">
+        Name
+      </div>
+      <div class="col-8 border p-lg-2 p-2">
+        Kaichou wa Maid-sama
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Release Date
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      Apr 2, 2010
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Rating
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      8.0/10 (IMBD)
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Total Episode
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      26
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Genres
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      School, Romance, Comedy
+    </div>
+  </div>
+</div>
+
+</div>
+    </div>
+
+    <hr class="w-100 w-lg-50 mt-5"></hr>
+
+  <!--para-->
+                <div class="mt-4 ps-lg-2 ms-3 ">
+                  <h3 class="mt-4 d-inline text-color-yellow">Kaichou wa Maid-sama </h3><span class="mt-5">(reviews)</span>
+              </div>
+      
+              <p class="mt-3 border-bottom border-dark pb-4 text-color-yellow text-lg-start p-lg-3  col-11 mx-auto mx-lg-auto">
+                ကျောင်းသားကောင်စီရဲ့ ပထမဆုံး အမျိုးသမီးဥက္ကဋ္ဌဖြစ်ရတာ မလွယ်ပါဘူး။ အထူးသဖြင့် ကိုယ့်ရဲ့ကျောင်းဟာ ယောက်ျားလေးအထက်တန်းကျောင်းကနေ မိန်းကလေးတွေနဲ့ ယှဉ်တွဲပညာသင်ကြားရေးကို ကူးပြောင်းတဲ့အခါမှာပေါ့။ "နတ်ဆိုးဥက္ကဋ္ဌ" ဆိုတဲ့ နာမည်ပြောင်နဲ့ လိုက်ဖက်စွာပဲ ယောက်ျားလေးတွေအတွက်တော့ စည်းကမ်းနဲ့ပတ်သက်ပြီး တင်းကျပ်တဲ့ပုံစံနဲ့ အာယူဇာဝါ မီဆာကီဟာ သူမကျွမ်းကျင်ပိုင်နိုင်တဲ့ အာအီကီဒိုနည်းစနစ်ကိုအသုံးပြီး အကျင့်ပျက်လုယက်ဖျက်ဆီးတတ်တဲ့ ယောက်ျားလေးတွေကိုတရားစီရင်ပြီး ဆဲအိကာအထက်တန်းကျောင်းမှ မိန်းကလေးတွေကို မကြောက်မရွံ့ကာကွယ်စောင့်ရှောက်ပေးခဲ့တယ်။
+
+                အပြစ်ပြောစရာမရှိဘူးလို့ထင်ရတဲ့အာယူဇာဝါမှာ အကြွေးဆပ်နိုင်ဖို့အတွက် ရုန်းကန်လှုပ်ရှားနေရတဲ့ သူမရဲ့မိသားစုကိုကူညီနိုင်အောင် အိမ်ဖော်ကဖေးမှာအချိန်ပိုင်းအလုပ်ဝင်လုပ်နေရတဲ့ အရှက်ရဖွယ်လျှို့ဝှက်ချက်ရှိတယ်။ အဖွဲ့ဝင်ကျောင်းသားတွေနဲ့ ခြောက်ပြစ်ကင်းသဲလဲစင်တဲ့ ကျောင်းသူတစ်ယောက်ရဲ့ပုံရိပ်ကို ထိန်းသိမ်းနိုင်ရန်အတွက် သူမရဲ့အလုပ်အကြောင်းကို ဖုံးကွယ်ထားနိုင်ခဲ့တယ်။ အူဆူအီ တာကူမီဆိုတဲ့ ကျောင်းမှာလူသိများတဲ့ကောင်လေးတစ်ယောက်ဟာ အိမ်ဖော်ကဖေးကို လမ်းလျှောက်ဝင်လာတဲ့နေ့မတိုင်ခင်အထိပေါ့။ သူဟာ ဒီလျှို့ဝှက်ချက်ကိုအသုံးချပြီးတော့ သူမရဲ့ဂုဏ်သိက္ခာကိုပဲ နင်းချေလေမလား ဒါမှမဟုတ် ကျောင်းသားကောင်စီရဲ့ဥက္ကဋ္ဌကို အကြပ်ကိုင်ပြီးတော့ သူမနဲ့နီးစပ်နိုင်ရန် အခွင့်ကောင်းတစ်ခုလိုပဲ အသုံးချလေမလားဆိုတာကတော့....
+                </p>
+      <!--para-->
+      
+      <!--download-->
+   
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://drive.google.com/file/d/1Ssp84lRD_NVK098kyamS5_un1lFoQEB5/preview" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe><p class="position-absolute top-0 start-0 text-white" id="CurrentEpisode">Kaichou wa Maid-sama ep 1</p></div>
+    
+      <hr class="w-100 w-lg-50 mt-3"></hr>
+
+    
+      <div class="ms-1 mb-4">
+      
+        <li>Episode 1 - <a href="#VideoPlayDiv" class="Episodes">episode1</a></li>
+        <li>Episode 2 - <a href="#VideoPlayDiv" class="Episodes">episode2</a></li>
+        <li>Episode 3 - <a href="#VideoPlayDiv" class="Episodes">episode3</a></li>
+        <li>Episode 4 - <a href="#VideoPlayDiv" class="Episodes">episode4</a></li>
+        <li>Episode 5 - <a href="#VideoPlayDiv" class="Episodes">episode5</a></li>
+        <li>Episode 6 - <a href="#VideoPlayDiv" class="Episodes">episode6</a></li>
+        <li>Episode 7 - <a href="#VideoPlayDiv" class="Episodes">episode7</a></li>
+        <li>Episode 8 - <a href="#VideoPlayDiv" class="Episodes">episode8</a></li>
+        <li>Episode 9 - <a href="#VideoPlayDiv" class="Episodes">episode9</a></li>
+        <li>Episode 10 - <a href="#VideoPlayDiv" class="Episodes">episode10</a></li>
+        <li>Episode 11 - <a href="#VideoPlayDiv" class="Episodes">episode11</a></li>
+        <li>Episode 12 - <a href="#VideoPlayDiv" class="Episodes">episode12</a></li>
+        <li>Episode 13 - <a href="#VideoPlayDiv" class="Episodes">episode13</a></li>
+        <li>Episode 14 - <a href="#VideoPlayDiv" class="Episodes">episode14</a></li>
+        <li>Episode 15 - <a href="#VideoPlayDiv" class="Episodes">episode15</a></li>
+        <li>Episode 16 - <a href="#VideoPlayDiv" class="Episodes">episode16</a></li>
+        <li>Episode 17 - <a href="#VideoPlayDiv" class="Episodes">episode17</a></li>
+        <li>Episode 18 - <a href="#VideoPlayDiv" class="Episodes">episode18</a></li>
+        <li>Episode 19 - <a href="#VideoPlayDiv" class="Episodes">episode19</a></li>
+        <li>Episode 20 - <a href="#VideoPlayDiv" class="Episodes">episode20</a></li>
+        <li>Episode 21 - <a href="#VideoPlayDiv" class="Episodes">episode21</a></li>
+        <li>Episode 22 - <a href="#VideoPlayDiv" class="Episodes">episode22</a></li>
+        <li>Episode 23 - <a href="#VideoPlayDiv" class="Episodes">episode23</a></li>
+        <li>Episode 24 - <a href="#VideoPlayDiv" class="Episodes">episode24</a></li>
+        <li>Episode 25 - <a href="#VideoPlayDiv" class="Episodes">episode25</a></li>
+        <li>Episode 26 - <a href="#VideoPlayDiv" class="Episodes">episode26</a></li>
+            
+      </div>
+        </div>
+   <!--Footer-->
+   <div id="footer" class="w-100 p-3 mt-5 bg-black">
+
+    <h6 class="text-warning text-center" style="font-size:small;">Anime and Anime News Myanmar where you can watch Anime mmsub online with hight qualiy and no ads. Also we are informing you about Updated Anime News!</h6>
+    <h6 class="text-warning text-center" style="font-size:small ;">Please Join Our Telegram and YouTube channels!</h6>
+    <i class="icofont-telegram"></i>
+
+    <div class="d-flex justify-content-center">
+    <a href="https://t.me/animeandanimenewsmyanmar" target="_blank" class="text-decoration-none">
+      <span class="badge text-bg-primary p-1">
+        <i class="bi bi-telegram"></i>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+      </svg>
+      Telegram
+      </span>
+    </a>
+
+    <a href="https://www.youtube.com/channel/UCugJ5BMfs_iea6PMwN1W27g" target="_blank" class="text-decoration-none">
+      <span class="badge text-bg-danger p-1 ms-1">
+        <i class="bi bi-youtube"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+          <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+        </svg>
+        YouTube
+      </span>
+    </a>
+
+    
+    <a href="https://formsubmit.co/el/juziya" target="_blank" class="text-decoration-none">
+      <span class="badge text-bg-success p-1 ms-1">
+        <i class="bi bi-envelope"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+        </svg>
+        E-mail
+      </span>
+    </a>
+  </div>
+
+  </div>
+<!--Footer-->
+      </div>
+
+      <div id="MainSliderResultDivWithBack" class=" ms-1">
+        <button class="badge bg-warning text-black mt-2 d-inline" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
+        <div class="d-flex flex-row justify-content-between">
+          <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
+        
+          </h2>
+          <h2 class="me-2 text-white" id="PageOf">Page <span id="CurrentPage">1</span> of <span id="TotalPage">4</span></h2>
+        </div>
+      
+    </div>
+
+              <!--Main Slide Result-->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+        <div class="carousel-indicators d-none">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+     
+     
+        <div class="carousel-inner">
+     
+        <!--movie-card carousel-item 1-->
+          <div class="carousel-item active movieSeries-carousel">
+           <div id="mainSliderResultDiv" class="row g-1 p-2">
+     
+           </div>
+     
+          </div>
+             <!--movie carousel-item 1-->
+     
+            <!--movie carousel-item 2-->
+          <div class="carousel-item movieSeries-carousel">
+           <div id="mainSliderResultDiv2" class="row g-1 p-2">
+     
+           </div>
+          </div>
+           <!--movie carousel-item 2-->
+     
+         <!--movie carousel-item 3-->
+          <div class="carousel-item movieSeries-carousel">
+           <div id="mainSliderResultDiv3" class="row g-1 p-2">
+     
+           </div>
+          </div>
+           <!--movie carousel-item 4-->
+           <div class="carousel-item movieSeries-carousel">
+            <div id="mainSliderResultDiv4" class="row g-1 p-2">
+      
+            </div>
+           </div>
+     
+        </div>  
+      </div>
+
+       <!--movie-card Pagination-->
+ <navaria-label="Page navigation example style="width: 100%;">
+ <ul id="mainSliderResultDivPagination" class="pagination d-flex justify-content-center mt-2">
+
+   
+
+ </ul>
+</navaria-label=>
+<!--movie-card Pagination-->
+
+        <style>
+         a{
+             text-decoration: none;
+             color: red;
+         }
+        </style>
+
+<script>
+  let Episodes = document.querySelectorAll(".Episodes")
+  let VideoPlayDiv = document.getElementById("VideoPlayDiv");
+  let CurrentEpisode = document.getElementById("CurrentEpisode")
+
+
+  Episodes.forEach(item => {
+item.addEventListener("click" , (event)=>{
+let ClickBtn = event.target.innerHTML;
+if(ClickBtn == "episode1"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1Ssp84lRD_NVK098kyamS5_un1lFoQEB5/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 1"
+}if(ClickBtn == "episode2"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1SwlQO1oqY7UChIUKP7efmWUkKdkU7YCG/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 2"
+}if(ClickBtn == "episode3"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1T78pQmt5SmetaJDu0FLN61j0gsOSejDp/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 3"
+}if(ClickBtn == "episode4"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1T8KyNC4UKRjg33WCFDpgMTa8DH8fuDA8/preview" ;
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 4"
+}if(ClickBtn == "episode5"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1TAmxYKd4LlegHJ2X2pBw4MJ0dJMV_Oem/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 5"
+}if(ClickBtn == "episode6"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1TCpo3dr5RvoBucRxuOmnPZKUUouNCQA7/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 6"
+}if(ClickBtn == "episode7"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1T8llhmQdzcvc0kpjxdBbPjEjO_lBcq19/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 7"
+}if(ClickBtn == "episode8"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1ITlD3-_Ocbvi_J3OUNaMTDjckmmVl5kN/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 8"
+}if(ClickBtn == "episode9"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1o3QacVhwyUn2_JPRo8hbXTRbXwzfcMgG/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 9"
+}if(ClickBtn == "episode10"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1XQRy9EGOKfuqXyByM3sSNY-ffSfOq4Aj/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 10"
+}if(ClickBtn == "episode11"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1-FKECxkIkQsabFe-iQA3OCWh4KAzj9lS/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 11"
+}if(ClickBtn == "episode12"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1gdL5oKLWyWbN8TD_14I6EAlGPDC37GNP/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 12"
+}if(ClickBtn == "episode13"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1T4zOo7sPN5yRX2NikJYa4Vf6ON7XOn4L/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 13"
+}if(ClickBtn == "episode14"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1rextKEWz9ziOn_fkgs6_kQBqAaTwF03p/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 14"
+}if(ClickBtn == "episode15"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1qUD9sBUixa-nPhKKkudRgHPE_W31PHLl/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 15"
+}if(ClickBtn == "episode16"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1zKHW-2GIm45bVWrAavgaBMo0GP-NP8BC/preview" ;
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 16"
+}if(ClickBtn == "episode17"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1rCoup5K1LgsxPv80wvl9xpX_DbPlp0iw/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 17"
+}if(ClickBtn == "episode18"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1_fCoDqhpOaUF3MtYnAcZcX6ym0Htzbwh/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 18"
+}if(ClickBtn == "episode19"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1LeSMUuqW8vPSzepUxSaT7cPSurLRPHsy/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 19"
+}if(ClickBtn == "episode20"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1Qr8B2EuyMEik879d4ASPV0MqsB4c4sYZ/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 20"
+}if(ClickBtn == "episode21"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1ybWLvxKvrc4MFZIr381tkFBlQhknBumP/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 21"
+}if(ClickBtn == "episode22"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1M7xQ8rHD04WlFgtvkdfZx8SmNea_KBb-/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 22"
+}if(ClickBtn == "episode23"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1VcbfrD7Q4aq1XDrRl3e5RwekOvKU9prH/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 23"
+}if(ClickBtn == "episode24"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1dWvmaN4FiKpzrassRk6GxZSieDfOdfRw/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 24"
+}if(ClickBtn == "episode25"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/16Rmpv1S-E2croFmUvmzfFwkKyFH-gaEo/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 25"
+}if(ClickBtn == "episode26"){
+VideoPlayDiv.src = "https://drive.google.com/file/d/1Mz7wG-MSQe5xOy0GH45nxiEQ2kMlrHgI/preview";
+CurrentEpisode.innerHTML = "Kaichou wa Maid-sama ep 26"
+}
+})
+})
+ </script>
+
+             <script src="../../bootstrap/bootstrap.bundle.min.js"></script>
+             <script src="../../bootstrap/popper.min.js"></script>
+             <script src="../../bootstrap/bootstrap.min.js"></script>
+             <script src="../../bootstrap/bootstrap.js"></script>
+             <script src="../../bootstrap/fontawesome.js" crossorigin="anonymous"></script>
+             <script src="../../searchbox.js"></script>
+             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+    
+
+    

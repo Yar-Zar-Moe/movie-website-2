@@ -18,7 +18,7 @@ let AnimeMovieArrayForMain = AnimeMovieArray.filter((movie)=>{
       ResultDiv = `
       <div class="col-6 col-sm-4 col-md-4 col-lg-3">
       <a href="${Href}" class="text-decoration-none" target="_blank">
-        <div class="card bg-black text-warning overflow-hidden">
+        <div class="card bg-black text-warning overflow-hidden rounded-0 border border-1 border-dark">
             <div class="position-relative">
               <img src="${Source}" class="card-img-top">
                 <div id="Rating" class="position-absolute bottom-0 pe-3 ps-1">
