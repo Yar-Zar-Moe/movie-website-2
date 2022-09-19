@@ -120,23 +120,47 @@
 
 <!--Anime News-->
 <div id="mainSlider-item-1" class="slider__content">
-    <h2 class="ms-2 mt-2 text-color-yellow text-start w-100">Anime News</h2>
 
+  <div class="d-flex flex-row w-100 justify-content-between mt-2">
+    <h2 class="ms-2 text-color-yellow">Anime News</h2>
+    <h2 class="me-2 text-white">Page <span id="CURRENTPAGE">1</span> Of <span id="TOTALPAGE"></span></h2>
+  </div>
 
-        <div class="row g-3 p-3 mx-lg-auto">
-          <iframe src="https://www.youtube.com/embed/h_zevO9kh7Y" class="col-lg-4 col-md-6 col-12 col-sm-6" height="250" title="UPCOMING ANIME 2022-2023" frameborder="0" allowfullscreen></iframe>
+    <div id="anime-series-carousel" class="d-flex flex-row">
 
-      
-
-          <iframe src="https://www.youtube.com/embed/lO5bDrd--hY" class="col-lg-4 col-md-6 col-12 col-sm-6" height="250" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
-
-          <iframe src="https://www.youtube.com/embed/h_zevO9kh7Y" class="col-lg-4 col-md-6 col-12 col-sm-6" height="250" title="ALL UPCOMING ANIME 2022-2023" frameborder="0" allowfullscreen></iframe>
-
-      
-
-          <iframe src="https://www.youtube.com/embed/lO5bDrd--hY" class="col-lg-4 col-md-6 col-12 col-sm-6" height="250" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
-          
+      <div class="slide-item p-2">
+        <div id="anime-movies-slide-1" class="row g-1 g-lg-2 p-2">
+         
         </div>
+      </div>
+    
+      <div class="slide-item p-2">
+        <div id="anime-movies-slide-2" class="row g-1 g-lg-2 p-2">
+         
+        </div> 
+      </div>
+    
+      <div class="slide-item p-2">
+        <div id="anime-movies-slide-3" class="row g-1 g-lg-2 p-2">
+         
+        </div>
+      </div>
+    
+      <div class="slide-item p-2">
+        <div id="anime-movies-slide-4" class="row g-1 g-lg-2 p-2">
+         
+        </div>
+      </div>
+    
+        
+    </div>
+    <navaria-label="Page navigation example style="width: 100%;">
+<ul id="moviepagination" class="pagination d-flex justify-content-center mt-2">
+ 
+
+</ul>
+</navaria-label=>
+
     <!--Footer-->
     <div id="footer" class="w-100 p-3 bg-black">
 
@@ -247,6 +271,17 @@
  </ul>
 </navaria-label=>
 <!--movie-card Pagination-->
+<style>
+  #anime-series-carousel{
+      width: 400vw;
+      position: relative;
+      left: 0;
+    }
+  
+    .slide-item{
+      width: 100vw;
+    }
+  </style>
 
 <script src="bootstrap/bootstrap.bundle.min.js"></script>
 <script src="bootstrap/bootstrap.min.js"></script>
@@ -257,6 +292,6 @@
 <script src="bootstrap2/popper.min.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+<script src="animenews.js"></script>
 </body>
 </html>

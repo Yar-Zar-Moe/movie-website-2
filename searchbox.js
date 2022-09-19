@@ -500,7 +500,7 @@ let AnimeMovieAndSeriesArray = [
       name : "Kawaii dake ja Nai Shikimori-san",
       year : "2022",
       Source : "images/kawaii dake ja nai.jpg",
-      geners : "Comedy, Romance, School, SliceOfLife",
+      geners : "Comedy, Romance, School, Slice of Life",
       href : "Anime Series/Kawaii Dake Ja nai Shikimori-san/Kawaii dake ja nai shikimori-san.html",
       animetype : "Series",
       sub : "12 ep",
@@ -584,7 +584,7 @@ let AnimeMovieAndSeriesArray = [
       name : "Komi Can’t Communicate season 2",
       year : "2022",
       Source : "images/komi can't communicate season 2.webp",
-      geners : "Comedy, School, SliceOfLife",
+      geners : "Comedy, School, Slice of Life",
       href : "Anime Series/komi can't communicate season 2/Komi Can't Communicate season 2.html",
       animetype : "Series",
       sub : "12 ep",
@@ -656,7 +656,7 @@ let AnimeMovieAndSeriesArray = [
       name : "My Dress-Up Darling",
       year : "2022",
       Source : "images/my dress up darling.png",
-      geners : "Romance, Drama, SliceofLife, Cosplay",
+      geners : "Romance, Drama, Slice of Life, Cosplay",
       href : "Anime Series/My Dress Darling/My Dress up Darling.html",
       animetype : "Series",
       sub : "12 ep",
@@ -704,7 +704,7 @@ let AnimeMovieAndSeriesArray = [
       name : "Komi Can’t Communicate season 1",
       year : "2021",
       Source : "images/komi can't communicate.jpg",
-      geners : "Comedy, School, SliceOfLife",
+      geners : "Comedy, School, Slice of Life",
       href : "Anime Series/komi can't communicate/Komi Can't Communicate season1.html",
       animetype : "Series",
       sub : "12 ep",
@@ -884,7 +884,7 @@ let AnimeMovieAndSeriesArray = [
       name : "Tonikaku Kawaii",
       year : "2020",
       Source : "images/tonikaku kawaii.webp",
-      geners : "Romance, Comedy, SliceOfLife",
+      geners : "Romance, Comedy, Slice of Life",
       href : "Anime Series/Tonikaku Kawaii/tonikaku kawaii.html",  
       animetype : "Series",   
       sub : "12 ep",
@@ -1168,6 +1168,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "no"
       },
       {
+      shortName : "Mahoutsukai no Yome",
+      name : "Mahoutsukai no Yome",
+      year : "2017",
+      Source : "images/mahou tsukai no yome.jpg",
+      geners : "Fantasy, Slice of Life, Magic, Demon",
+      href : "Anime Series/Mahou Tsukai No Yome/mahou tsukai no yome.html",
+      animetype : "Series",
+      sub : "24 ep",
+      rating : "8.0",
+      sugget : "yes"
+      },
+      {
       shortName : "Konosuba Season 2",
       name : "Konosuba Season 2",
       year : "2017",
@@ -1305,7 +1317,7 @@ let AnimeMovieAndSeriesArray = [
       year : "2015",
       Source : "images/jitsu wa watashi wa.jpg",
       geners : "School, Comedy, Romance, Vampire",
-      href : "Anime Series/one punch man season 1/One Punch Man season1.html",
+      href : "Anime Series/Jitsu wa Watashi wa/jitsu wa watashi wa.html",
       animetype : "Series",
       sub : "13 ep",
       rating : "6.8",
@@ -1493,6 +1505,7 @@ let AnimeMovieAndSeriesArray = [
       },
 ]
 
+console.log(AnimeMovieAndSeriesArray.length);
 
 let SearchBox = document.getElementById("MainSearchBox");
 let SearchResultDiv = document.getElementById("MainSearchResult");
