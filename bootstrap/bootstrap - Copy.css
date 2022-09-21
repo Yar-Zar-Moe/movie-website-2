@@ -643,18 +643,6 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 200px) {
-  div li{
-    font-size: small;
-  }
-  div{
-    font-size: small;
-  }
-  .Episodes{
-    font-size: small;
-  }
-}
-
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -663,15 +651,6 @@ progress {
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
-  }
-  div li{
-    font-size: medium;
-  }
-  div{
-    font-size: medium;
-  }
-  .Episodes{
-    font-size: medium;
   }
 }
 @media (min-width: 1100px) {
@@ -7903,11 +7882,11 @@ textarea.form-control-lg {
 }
 
 .mt-4 {
-  margin-top: 1rem !important;
+  margin-top: 1.5rem !important;
 }
 
 .mt-5 {
-  margin-top: 1rem !important;
+  margin-top: 3rem !important;
 }
 
 .mt-auto {
@@ -8007,7 +7986,7 @@ textarea.form-control-lg {
 }
 
 .p-2 {
-  padding: 0.2rem !important;
+  padding: 0.5rem !important;
 }
 
 .p-3 {

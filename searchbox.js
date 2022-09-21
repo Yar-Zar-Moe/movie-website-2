@@ -241,6 +241,18 @@ let AnimeMovieAndSeriesArray = [
           rating : "7.3",
           sugget : "no"
           },
+          {
+          shortName : "No Game No Life: Zero",
+          name : "No Game No Life: Zero",
+          year : "2017",
+          Source : "images/no game no life zero movie.jpg",
+          geners : "Comedy, Fantasy, Ecchi, Isekai, Game",
+          href : "Anime Movies/No Game No Life Zero Movie/No Game No Life Zero Movie.html",  
+          animetype : "Movie",   
+          sub : "1 ep",
+          rating : "8.2",
+          sugget : "no"
+          },
         {
           shortName : "Your Name",
           name : "Your Name (Kimi no na wa)",
@@ -470,8 +482,19 @@ let AnimeMovieAndSeriesArray = [
           sugget : "no"
           },
   /*Anime Movie Array End */
-    /*Anime Series Array Start */
-    {
+    /*Anime Series Array Start */   
+     {
+      shortName : "My Isekai Life ",
+      name : "My Isekai Life ",
+      year : "2022",
+      Source : "images/my isekai life.jpg",
+      geners : "Action, Adventure, Fantasy, Isekai",
+      href : "Anime Series/My Isekai Life/My Isekai Life.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "6.3",
+      sugget : "no"
+      },{
       shortName : "Spy X Family",
       name : "Spy X Family",
       year : "2022",
@@ -829,7 +852,7 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",   
       sub : "12 ep",
       rating : "7.1",
-      sugget : "no"
+      sugget : "yes"
       },
       {
       shortName : "Assassins Pride",
@@ -877,7 +900,7 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",   
       sub : "11 ep",
       rating : "5.3",
-      sugget : "no"
+      sugget : "yes"
       },
       {
       shortName : "Tonikaku Kawaii",
@@ -1024,6 +1047,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "no"
       },  
       {
+      shortName : "Do You Love Your Mom and...",
+      name : "Do You Love Your Mom and...",
+      year : "2019",
+      Source : "images/do you love your mom and her two-hit multi-target attacks.webp",
+      geners : "Adventure, Comedy, Fantasy, Isekai, Ecchi",
+      href : "Anime Series/Do You Love Your Mom/Do You Love Your Mom and Her Two-Hit mutiple target Attack.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "5.5",
+      sugget : "yes"
+      },
+      {
       shortName : "Dr Stone Season 1",
       name : "Dr Stone Season 1",
       year : "2019",
@@ -1034,6 +1069,30 @@ let AnimeMovieAndSeriesArray = [
       sub : "24 ep",
       rating : "8.2",
       sugget : "no"
+      },
+      {
+      shortName : "Demon Lord Retry",
+      name : "Demon Lord Retry",
+      year : "2019",
+      Source : "images/demon lord retry.jpg",
+      geners : "Action, Adventure, Fantasy, Isekai, Supernatural",
+      href : "Anime Series/Demon Lord Retry/Demon Lord Retry.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "6.5",
+      sugget : "yes"
+      },
+      {
+      shortName : "How Heavy Are the Dumbbells You Lift?",
+      name : "How Heavy Are the Dumbbells You Lift?",
+      year : "2019",
+      Source : "images/how heavy are the dumbell you lift.jpg",
+      geners : "Comedy, Ecchi, Sport",
+      href : "Anime Series/How Heavy are the Dumbells you lift/How Heavy are the Dumbells you lift.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "7.2",
+      sugget : "yes"
       },
       {
       shortName : "Love Is War season 1",
@@ -1093,7 +1152,7 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",
       sub : "12 ep",
       rating : "8.5",
-      sugget : "no"
+      sugget : "yes"
       },
       {
       shortName : "Bunny Girl Senpai",
@@ -1237,7 +1296,7 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",
       sub : "12 ep",
       rating : "6.9",
-      sugget : "no"
+      sugget : "yes"
       },
       {
       shortName : "Miss Kobayashi: Dragon Maid season 1 ",
@@ -1336,6 +1395,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "no"
       },
       {
+      shortName : "Monthly Girls' Nozaki-kun ",
+      name : "Monthly Girls' Nozaki-kun ",
+      year : "2014",
+      Source : "images/Monthly Girl Nozaki.jpg",
+      geners : "Comedy, Romance, School, Shoujo",
+      href : "Anime Series/Monthly Girl Nozaki/Monthly Girl Nozaki.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.8",
+      sugget : "no"
+      },
+      {
       shortName : "Parasyte",
       name : "Parasyte",
       year : "2014",
@@ -1346,6 +1417,18 @@ let AnimeMovieAndSeriesArray = [
       sub : "24 ep",
       rating : "8.3",
       sugget : "no"
+      },
+      {
+      shortName : "No Game No Life ",
+      name : "No Game No Life ",
+      year : "2014",
+      Source : "images/no game no life.jpg",
+      geners : "Comedy, Fantasy, Ecchi, Isekai, Game",
+      href : "Anime Series/No Game No Life/No Game No Life.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "8.1",
+      sugget : "yes"
       },
       {
       shortName : "Sword Art Online Phantom Bullet season 2",
@@ -1429,7 +1512,7 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",   
       sub : "12 ep",
       rating : "8.2",
-      sugget : "no"
+      sugget : "yes"
       },
       {
       shortName : "Blood-C",
