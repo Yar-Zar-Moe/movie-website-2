@@ -417,7 +417,11 @@ li{
         width: 17vw;
         height: 8vw;
     }
-    
+    #MainSearchBox{
+        height: 2rem;
+        border-radius: 1.2rem;
+        padding-left: 1rem;
+    }
 }
 
 /*nav Bar */
@@ -496,7 +500,7 @@ li{
 }
 
 #MainSearchBox{
-    height: 2.5rem;
+    height: 2.4rem;
     border-radius: 1.2rem;
     padding-left: 1rem;
     
@@ -506,9 +510,6 @@ li{
     background-color: #444;
 }
 
-#ShowAllResult{
-    display: none;
-}
 
 
 
