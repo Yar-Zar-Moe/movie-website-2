@@ -483,7 +483,18 @@ let AnimeMovieAndSeriesArray = [
           },
   /*Anime Movie Array End */
     /*Anime Series Array Start */   
-     {
+      {
+      shortName : " Vermeil in Gold",
+      name : " Vermeil in Gold",
+      year : "2022",
+      Source : "images/vermeil in gold.jpg",
+      geners : "Fantasy, Ecchi, School, Demon, Magic, Romance",
+      href : "Anime Series/Vermeil In Gold/Vermeil In Gold.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "6.2",
+      sugget : "no"
+      },{
       shortName : "My Isekai Life ",
       name : "My Isekai Life ",
       year : "2022",
