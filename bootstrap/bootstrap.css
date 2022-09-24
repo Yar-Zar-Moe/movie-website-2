@@ -4080,7 +4080,7 @@ textarea.form-control-lg {
   display: inline-block;
   width: 2em;
   height: 2em;
-  vertical-align: middle;
+  vertical-align: bottom;
   background-image: var(--bs-navbar-toggler-icon-bg);
   background-repeat: no-repeat;
   background-position: center;

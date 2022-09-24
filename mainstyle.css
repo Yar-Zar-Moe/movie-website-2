@@ -342,9 +342,7 @@ li{
 
 
 @media(max-width : 400px){
-    #name{
-        display: none;
-    }
+    
     h1{
         font-size:5vw
     }
@@ -421,11 +419,7 @@ li{
         width: 17vw;
         height: 8vw;
     }
-    #MainSearchBox{
-        height: 2rem;
-        border-radius: 1.2rem;
-        padding-left: 1rem;
-    }
+
 }
 
 /*nav Bar */
@@ -446,7 +440,6 @@ li{
 
 .text-color-yellow{
     color: #ffdb01;
-
 }
 
 .nav-link, .dropdown-item{
@@ -465,7 +458,7 @@ li{
 }
 
 .navbar-toggler-icon{
-    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 219, 1, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 219, 1, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-toggler{
@@ -503,12 +496,20 @@ li{
     width: 5rem;
 }
 
-#MainSearchBox{
-    height: 2.4rem;
-    border-radius: 1.2rem;
-    padding-left: 1rem;
-    
-}
+@media(max-width : 400px){
+    #MainSearchBox{
+        height: 1.7rem;
+        border-radius:0.7rem;
+        padding-left: 1rem;
+        font-size: 0.9rem;
+    }}
+
+    @media(min-width : 400px){
+        #MainSearchBox{
+            height: 2.2rem;
+            border-radius:1rem;
+            padding-left: 1rem;
+        }}
 
 .SearchResultItem:hover{
     background-color: #444;

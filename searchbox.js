@@ -483,7 +483,18 @@ let AnimeMovieAndSeriesArray = [
           },
   /*Anime Movie Array End */
     /*Anime Series Array Start */   
-      {
+    {
+      shortName : "Rent A GirlFriend Season 2",
+      name : "Rent A GirlFriend Season 2",
+      year : "2022",
+      Source : "images/Rent A GirlFriend season 2.png",
+      geners : "Romance, Comedy, School",
+      href : "Anime Series/Rent A GirlFriend season 2/Rent A GirlFriend season 2.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "6.8",
+      sugget : "no"
+      },{
       shortName : " Vermeil in Gold",
       name : " Vermeil in Gold",
       year : "2022",
@@ -925,6 +936,18 @@ let AnimeMovieAndSeriesArray = [
       rating : "7.9",
       sugget : "no"
       }, 
+      {
+      shortName : "Rent A GirlFriend Season 1",
+      name : "Rent A GirlFriend Season 1",
+      year : "2020",
+      Source : "images/Rent A GirlFriend season 1.webp",
+      geners : "Romance, Comedy, School",
+      href : "Anime Series/Rent A GirlFriend season 1/Rent A GirlFriend Season 1.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.1",
+      sugget : "no"
+      },
       {
       shortName : "Danmachi season 3",
       name : "Danmachi season 3",
@@ -1611,8 +1634,7 @@ let AnimeMovieAndSeriesArray = [
       },
 ]
 
-let webName = document.getElementById("name");
-webName.innerHTML = "";
+
 
 console.log(AnimeMovieAndSeriesArray.length);
 
@@ -1631,6 +1653,7 @@ BackArrow.addEventListener("click" , ()=>{
 })
 
 SearchBox.placeholder = "Search..."
+// SearchBox.style.fontSize = "0.9rem"
 
 
 SearchBox.addEventListener("keyup" , (event) =>{
