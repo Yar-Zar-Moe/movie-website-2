@@ -336,11 +336,15 @@ li{
     #MainSliderCarouselIndicator{
         display: none;
     }
+    
 
 }
 
 
 @media(max-width : 400px){
+    #name{
+        display: none;
+    }
     h1{
         font-size:5vw
     }

@@ -1611,6 +1611,9 @@ let AnimeMovieAndSeriesArray = [
       },
 ]
 
+let webName = document.getElementById("name");
+webName.innerHTML = "";
+
 console.log(AnimeMovieAndSeriesArray.length);
 
 let SearchBox = document.getElementById("MainSearchBox");
