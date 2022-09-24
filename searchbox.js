@@ -489,7 +489,7 @@ let AnimeMovieAndSeriesArray = [
       year : "2022",
       Source : "images/Rent A GirlFriend season 2.png",
       geners : "Romance, Comedy, School",
-      href : "Anime Series/Rent A GirlFriend season 2/Rent A GirlFriend season 2.html",  
+      href : "Anime Series/We Never Learn Season 1/Rent A GirlFriend season 2.html",  
       animetype : "Series",   
       sub : "12 ep",
       rating : "6.8",
