@@ -482,14 +482,91 @@ let AnimeMovieAndSeriesArray = [
           sugget : "no"
           },
   /*Anime Movie Array End */
-    /*Anime Series Array Start */   
-    {
+    /*Anime Series Array Start */  
+      {
+      shortName : "Black Summoner",
+      name : "Black Summoner",
+      year : "2022",
+      Source : "images/black summoner.jpg",
+      geners : "Isekai, Magic, Harem, Fantasy, Action",
+      href : "Anime Series/Black Summoner/Black Summoner.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.1",
+      sugget : "no"
+      },{
+      shortName : "Parallel World Pharmacy",
+      name : "Parallel World Pharmacy",
+      year : "2022",
+      Source : "images/Parallel World Pharmacy.jpg",
+      geners : "Isekai, Comedy, Fantasy, Medical",
+      href : "Anime Series/Parallel World Pharmacy/Parallel World Pharmacy.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.4",
+      sugget : "no"
+      },{
+      shortName : "Engage kiss",
+      name : "Engage kiss",
+      year : "2022",
+      Source : "images/Engage kiss.jpg",
+      geners : "Comedy, Romance, Demon",
+      href : "Anime Series/Engage Kiss/Engage kiss.html",  
+      animetype : "Series",   
+      sub : "13 ep",
+      rating : "6.9",
+      sugget : "no"
+      },{
+      shortName : "Lycoris Recoil",
+      name : "Lycoris Recoil",
+      year : "2022",
+      Source : "images/lycoris recoil.jpg",
+      geners : "Action, School",
+      href : "Anime Series/Lycoris Recoil/lycoris recoil.html",  
+      animetype : "Series",   
+      sub : "13 ep",
+      rating : "8.3",
+      sugget : "no"
+      },{
+      shortName : "When Will Ayumu Make His Move?",
+      name : "When Will Ayumu Make His Move?",
+      year : "2022",
+      Source : "images/when will ayumu make his move.jpg",
+      geners : "Romance, Comedy, School",
+      href : "Anime Series/when will ayumu make his move/when will ayumu make his move.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.1",
+      sugget : "no"
+      },{
+      shortName : "Yakuza's Guide to Babysitting",
+      name : "Yakuza's Guide to Babysitting",
+      year : "2022",
+      Source : "images/yakuza guide to babysitting.png",
+      geners : "Comedy, Slice of Life",
+      href : "Anime Series/yakuza's guide to babysitting/yakuza guide to babysitting.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.8",
+      sugget : "no"
+      },{
+      shortName : "My Stepmom's Daughter Is My Ex",
+      name : "My Stepmom's Daughter Is My Ex",
+      year : "2022",
+      Source : "images/my stepmom's daughter is my ex.png",
+      geners : "Romance, Comedy, School",
+      href : "Anime Series/my stepmom's daughter is my ex/my stepmom's daughter is my ex.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "6.8",
+      sugget : "no"
+      },{
       shortName : "Rent A GirlFriend Season 2",
       name : "Rent A GirlFriend Season 2",
       year : "2022",
       Source : "images/Rent A GirlFriend season 2.png",
       geners : "Romance, Comedy, School",
-      href : "Anime Series/Rent A GirlFriend season 2/Rent A GirlFriend season 2.html",  
+      href : "Anime Series/We Never Learn Season 1/Rent A GirlFriend Season 1.html",  
       animetype : "Series",   
       sub : "12 ep",
       rating : "6.8",
