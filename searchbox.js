@@ -1711,7 +1711,7 @@ let AnimeMovieAndSeriesArray = [
       },
 ]
 
-
+let Footer = document.getElementById("footer")
 
 console.log(AnimeMovieAndSeriesArray.length);
 
@@ -1781,6 +1781,27 @@ for (let i = 0; i < 8; i++) {
 }
 })
 /*Search Box*/
+
+
+
+if(SearchBox.classList.contains("anime-page")){
+  Footer.innerHTML += `
+  <div draggable="true" id="mydiv" class="touch-pan-y">
+  <div draggable="true" id="mydivheader" class="touch-type">
+  <div draggable="true" id="nyanoh" style=""> မင်္ဂလာပါ။ AAANM မှ ကြိုဆိုပါတယ်</div>
+  <div id="nyanoh2" class="pointer" style="display: block;"></div>
+  <img id="Gif" onclick="
+                  if(document.getElementById('nyanoh').style.display == 'block'){
+                      document.getElementById('nyanoh').style.display = 'none';
+                      document.getElementById('nyanoh2').style.display = 'none';
+                  }else{
+                      document.getElementById('nyanoh').style.display = 'block';
+                      document.getElementById('nyanoh2').style.display = 'block';
+                  }
+                  " src="../../images/anime.gif" alt="this slowpoke moves">
+  </div>
+  </div>`
+}
 
 /*Gender button*/
 

@@ -420,6 +420,8 @@ li{
         height: 8vw;
     }
 
+    
+
 }
 
 /*nav Bar */
@@ -796,4 +798,62 @@ body {
     -moz-box-shadow: 0 -5px 6px rgba(51, 51, 51, 0.5);
     -webkit-box-shadow: 0 -5px 6px rgba(51, 51, 51, 0.5);
     box-shadow: 0 -5px 6px rgba(51, 51, 51, 0.5);
+}
+
+#mydiv {
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+    z-index: 9;
+    background-attachment: fixed;
+    float: right;
+}
+
+#mydivheader {
+    position: sticky;
+    cursor: pointer;
+    z-index: 10;
+    background-attachment: fixed;
+}
+
+.pointer {
+    height: 18px;
+    width: 10px;
+    background: rgb(17, 17, 17);
+    margin: 0 auto;
+    transform: rotate(45deg);
+    border-radius: 0 0 12px 0;
+    margin-top: -6px;
+    position: relative;
+}
+
+#nyanoh{
+    height: 50px; 
+    width: 15%;
+    min-width: 150px;
+    background: rgb(17, 17, 17);
+    display: block;
+    margin: 50px auto 0px;
+    border-radius: 20px;
+    font-size: 9px;
+    text-indent: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#Gif{
+    width: 80px;
+}
+
+@media(max-width : 400px){
+    #Gif{
+        width: 60px;
+    }
+    #nyanoh{
+        height: 40px; 
+        width: 15%;
+        min-width: 100px;
+        font-size: 8px;
+    }
 }
