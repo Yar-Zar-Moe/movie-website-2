@@ -483,7 +483,62 @@ let AnimeMovieAndSeriesArray = [
           },
   /*Anime Movie Array End */
     /*Anime Series Array Start */  
-      {
+     {
+      shortName : "Call of the Night",
+      name : "Call of the Night",
+      year : "2022",
+      Source : "images/call of the night.jpg",
+      geners : "Romance, Supernatural, Comedy, Vampire",
+      href : "Anime Series/Call of the Night/Call of the Night.html",  
+      animetype : "Series",   
+      sub : "13 ep",
+      rating : "8.1",
+      sugget : "no"
+      },{
+      shortName : "Danmachi Season 4",
+      name : "Danmachi Season 4",
+      year : "2022",
+      Source : "images/danmachi season 4.png",
+      geners : "Action, Adventure, Fantasy, Magic, Demon",
+      href : "Anime Series/Danmachi Season 4/Danmachi Season 4.html",  
+      animetype : "Series",   
+      sub : "11 ep",
+      rating : "7.7",
+      sugget : "no"
+      },{
+      shortName : "RWBY: Ice Queendom",
+      name : "RWBY: Ice Queendom",
+      year : "2022",
+      Source : "images/rwby ice queendom.jpg",
+      geners : "Action, Dark , Mecha",
+      href : "Anime Series/RWBY Ice Queendom/RWBY Ice Queendom.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "6.4",
+      sugget : "no"
+      },{
+      shortName : "Classroom of the Elite Season 2",
+      name : "Classroom of the Elite Season 2",
+      year : "2022",
+      Source : "images/classroom of the elite season 2.png",
+      geners : "Psychological, School, Drama",
+      href : "Anime Series/Classroom of the Elite Season 2/Classroom of the Elite season 2.html",  
+      animetype : "Series",   
+      sub : "13 ep",
+      rating : "8.1",
+      sugget : "no"
+      },{
+      shortName : "Devil is a Part-Timer! Season 2",
+      name : "Devil is a Part-Timer! Season 2",
+      year : "2022",
+      Source : "images/devil is a part timer season 2.jpg",
+      geners : "Comedy, Fantasy, Romance, Supernatural, Demon",
+      href : "Anime Series/The Devil is a Part-Timer! Season 2/The Devil is a Part-Timer! Season 2.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "6.6",
+      sugget : "no"
+      },{
       shortName : "Black Summoner",
       name : "Black Summoner",
       year : "2022",
@@ -493,6 +548,17 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",   
       sub : "12 ep",
       rating : "7.1",
+      sugget : "no"
+      },{
+      shortName : "Isekai Meikyuu Harem",
+      name : "Isekai Meikyuu Harem",
+      year : "2022",
+      Source : "images/isekai meikyuu de harem.jpg",
+      geners : " Adventure, Fantasy, Romance, Ecchi, Isekai, Harem",
+      href : "Anime Series/Isekai Meikyuu de Harem wo/Isekai Meikyuu de Harem wo.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "6.6",
       sugget : "no"
       },{
       shortName : "Parallel World Pharmacy",
@@ -592,6 +658,17 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",
       sub : "12 ep",
       rating : "6.3",
+      sugget : "no"
+      },{
+      shortName : "A Couple of Cuckoos",
+      name : "A Couple of Cuckoos",
+      year : "2022",
+      Source : "images/a couple of cuckoos.jpg",
+      geners : "Comedy, Romance, School, Harem",
+      href : "Anime Series/A Couple of Cuckoos/A Couple of Cuckoos.html",
+      animetype : "Series",
+      sub : "24 ep",
+      rating : "7.0",
       sugget : "no"
       },{
       shortName : "Spy X Family",
@@ -771,6 +848,18 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",
       sub : "13 ep",
       rating : "7.4",
+      sugget : "no"
+      },
+      {
+      shortName : "Attack on Titan Season 4 Part 2",
+      name : "Attack on Titan Season 4 Part 2",
+      year : "2022",
+      Source : "images/attack on titan season 4 part 2.webp",
+      geners : "Action, Military, Titan, Dark, Fantasy",
+      href : "Anime Series/Attack On Titan Season 4 part 2/Attack On Titan Season 4 part 2.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "8.8",
       sugget : "no"
       },
       {
@@ -1002,6 +1091,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "yes"
       },
       {
+      shortName : "Attack on Titan Season 4 Part 1",
+      name : "Attack on Titan Season 4 Part 1",
+      year : "2020",
+      Source : "images/attack on titan season 4 part 1.jpeg",
+      geners : "Action, Military, Titan, Dark, Fantasy",
+      href : "Anime Series/Attack On Titan Season 4 part 1/Attack On Titan Season 4 part 1.html",
+      animetype : "Series",
+      sub : "16 ep",
+      rating : "8.8",
+      sugget : "no"
+      },
+      {
       shortName : "Tonikaku Kawaii",
       name : "Tonikaku Kawaii",
       year : "2020",
@@ -1218,6 +1319,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "no"
       },
       {
+      shortName : "Attack on Titan Season 3 Part 2",
+      name : "Attack on Titan Season 3 Part 2",
+      year : "2019",
+      Source : "images/attack on titan season 3 p 2.jpg",
+      geners : "Action, Military, Titan, Dark, Fantasy",
+      href : "Anime Series/Attack On Titan Season 3 part 2/Attack On Titan Season 3 part 2.html",
+      animetype : "Series",
+      sub : "10 ep",
+      rating : "9.0",
+      sugget : "no"
+      },
+      {
       shortName : "Danmachi season 2",
       name : "Danmachi season 2",
       year : "2019",
@@ -1275,6 +1388,18 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",   
       sub : "12 ep",
       rating : "8.2",
+      sugget : "no"
+      },
+      {
+      shortName : "Attack on Titan Season 3 part 1",
+      name : "Attack on Titan Season 3 part 1",
+      year : "2018",
+      Source : "images/attack on titan season 3 p 1.jpg",
+      geners : "Action, Military, Titan, Dark, Fantasy",
+      href : "Anime Series/Attack On Titan Season 3 par t 1/Attack On Titan Season 3 part 1.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "8.6",
       sugget : "no"
       },
       {
@@ -1383,6 +1508,18 @@ let AnimeMovieAndSeriesArray = [
       animetype : "Series",
       sub : "12 ep",
       rating : "7.1",
+      sugget : "no"
+      },
+      {
+      shortName : "Attack on Titan Season 2",
+      name : "Attack on Titan Season 2",
+      year : "2017",
+      Source : "images/attack on titan season 2 .webp",
+      geners : "Action, Military, Titan, Dark, Fantasy",
+      href : "Anime Series/Attack On Titan Season 4 part 2/Attack On Titan Season 4 part 2.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "8.5",
       sugget : "no"
       },
       {
@@ -1578,6 +1715,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "no"
       },
       {
+      shortName : "Attack on Titan Ovas",
+      name : "Attack on Titan Ovas",
+      year : "2013",
+      Source : "images/attack on titan ova.jpg",
+      geners : "Action, Military, Titan, Dark, Fantasy",
+      href : "Anime Series/Attack On Titan Ova/Attack On Titan Ovas.html",
+      animetype : "Series",
+      sub : "8 ep",
+      rating : "7.8",
+      sugget : "yes"
+      },
+      {
       shortName : "Hunter X Hunter",
       name : "Hunter X Hunter",
       year : "2013",
@@ -1588,6 +1737,18 @@ let AnimeMovieAndSeriesArray = [
       sub : "148 ep",
       rating : "9.0",
       sugget : "yes"
+      },
+      {
+      shortName : "Attack on Titan Season 1",
+      name : "Attack on Titan Season 1",
+      year : "2013",
+      Source : "images/attack on titan season 1.jpg",
+      geners : "Action, Military, Titan, Dark, Fantasy",
+      href : "Anime Series/Attack On Titan Season 3 part 2/Attack On Titan Season 3 part 2.html",
+      animetype : "Series",
+      sub : "25 ep",
+      rating : "8.5",
+      sugget : "no"
       },
       {
       shortName : "Blood Lad",
@@ -1784,24 +1945,24 @@ for (let i = 0; i < 8; i++) {
 
 
 
-if(SearchBox.classList.contains("anime-page")){
-  Footer.innerHTML += `
-  <div draggable="true" id="mydiv" class="touch-pan-y">
-  <div draggable="true" id="mydivheader" class="touch-type">
-  <div draggable="true" id="nyanoh" style=""> မင်္ဂလာပါ။ AAANM မှ ကြိုဆိုပါတယ်</div>
-  <div id="nyanoh2" class="pointer" style="display: block;"></div>
-  <img id="Gif" onclick="
-                  if(document.getElementById('nyanoh').style.display == 'block'){
-                      document.getElementById('nyanoh').style.display = 'none';
-                      document.getElementById('nyanoh2').style.display = 'none';
-                  }else{
-                      document.getElementById('nyanoh').style.display = 'block';
-                      document.getElementById('nyanoh2').style.display = 'block';
-                  }
-                  " src="../../images/anime.gif" alt="this slowpoke moves">
-  </div>
-  </div>`
-}
+// if(SearchBox.classList.contains("anime-page")){
+//   Footer.innerHTML += `
+//   <div draggable="true" id="mydiv" class="touch-pan-y">
+//   <div draggable="true" id="mydivheader" class="touch-type">
+//   <div draggable="true" id="nyanoh" style=""> မင်္ဂလာပါ။ AAANM မှ ကြိုဆိုပါတယ်</div>
+//   <div id="nyanoh2" class="pointer" style="display: block;"></div>
+//   <img id="Gif" onclick="
+//                   if(document.getElementById('nyanoh').style.display == 'block'){
+//                       document.getElementById('nyanoh').style.display = 'none';
+//                       document.getElementById('nyanoh2').style.display = 'none';
+//                   }else{
+//                       document.getElementById('nyanoh').style.display = 'block';
+//                       document.getElementById('nyanoh2').style.display = 'block';
+//                   }
+//                   " src="../../images/anime.gif" alt="this slowpoke moves">
+//   </div>
+//   </div>`
+// }
 
 /*Gender button*/
 
