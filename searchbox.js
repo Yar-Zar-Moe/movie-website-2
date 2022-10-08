@@ -506,6 +506,17 @@ let AnimeMovieAndSeriesArray = [
       rating : "7.7",
       sugget : "no"
       },{
+      shortName : "Orient Part 2",
+      name : "Orient Part 2",
+      year : "2022",
+      Source : "images/orient part 2.jpg",
+      geners : "Action, Adventure, Fantasy, Samurai, Demon",
+      href : "Anime Series/Orient Part 2/Orient Part 2.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.0",
+      sugget : "no"
+      },{
       shortName : "RWBY: Ice Queendom",
       name : "RWBY: Ice Queendom",
       year : "2022",
