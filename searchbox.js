@@ -1834,6 +1834,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "yes"
       },
       {
+      shortName : "Demon King Daimao",
+      name : "Demon King Daimao",
+      year : "2010",
+      Source : "images/demon king daimao.jpg",
+      geners : "Action, Comedy, Ecchi, Harem, School, Magic, Demon",
+      href : "Anime Series/Demon King Daimao/Demon King Daimao.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "6.2",
+      sugget : "yes"
+      },
+      {
       shortName : "Code Geass: Lelouch of the Rebellion R2",
       name : "Code Geass: Lelouch of the Rebellion R2",
       year : "2008",
