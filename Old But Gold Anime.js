@@ -9,6 +9,10 @@ let oldbutgoldTOTALPAGE = document.getElementById("oldbutgoldTOTALPAGE");
 let oldbutgoldanime = AnimeMovieAndSeriesArray.filter((movie) =>{
   return movie.year < 2010;
 })
+
+oldbutgoldanime.sort(function () {
+  return Math.random() - 0.5;
+});
   
 if(oldbutgoldanime.length > 20){
   oldbutgoldTOTALPAGE.innerHTML = 2;
