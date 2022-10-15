@@ -1378,7 +1378,7 @@ webName.innerHTML = "";
 
       this._updateInterval();
 
-      this._interval = setInterval(() => this.nextWhenVisible(),/*changing here*/ 2000);
+      this._interval = setInterval(() => this.nextWhenVisible(), this._config.interval);
     }
 
     _maybeEnableCycle() {
@@ -1522,7 +1522,7 @@ webName.innerHTML = "";
       }
 
       const elementInterval = Number.parseInt(element.getAttribute('data-bs-interval'), 10);
-      // this._config.interval = elementInterval || this._config.defaultInterval
+      this._config.interval = elementInterval || this._config.defaultInterval;
     }
 
     _slide(order, element = null) {

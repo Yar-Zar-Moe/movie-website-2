@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="previewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullmetal Alchemist: Brotherhood</title>
+  <link rel="stylesheet" href="../../bootstrap/bootstrap.css">
+  <link rel="icon" type="image/x-icon" href="../../images/Night_Raid_Logo.jpg">
+  <link rel="stylesheet" href="../../mainstyle.css">
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav style="background-color:rgba(21, 22, 27)" class="navbar navbar-expand-lg pt-3 pb-3 shadow-lg">
+      <div class="container-fluid">
+  
+        <div class="navbar-brand d-flex flex-row align-items-center">
+          <img id="Website-logo" class="border-end border-start" src="../../images/Studio_Project-removebg-preview.png" alt="">
+          <h1 style="" class="navbar-brand text-center d-flex flex-lg-row flex-column" id="name">
+            <div class="">Anime and Anime News</div>
+            <div class="">Myanmar</div>
+          </h1>
+        </div>
+    
+           <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+  
+            <a href="../../mainPage.html"><button id="Home" type="button" class="nav-item btn rounded-0 text-warning w-100">Home</button></a>
+  
+            <div class="dropdown">
+              <button class="btn nav-item dropdown-toggle w-100 text-warning rounded-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Genres
+              </button>
+              <ul style="height: 30vh;overflow-y:scroll;overflow-x: hidden;" class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                <li><a id="Action" class="btn dropdown-item">Action</a></li>
+                <li><a id="Adventure" class="dropdown-item">Adventure</a></li>
+                <li><a id="Comedy" class="btn dropdown-item">Comedy</a></li>
+                <li><a id="Demon" class="dropdown-item">Demon</a></li>
+                <li><a id="Drama" class="dropdown-item">Drama</a></li>
+                <li><a id="Ecchi" class="dropdown-item">Ecchi</a></li>
+                <li><a id="Fantasy" class="dropdown-item">Fantasy</a></li>
+                <li><a id="Game" class="dropdown-item">Game</a></li>
+                <li><a id="Harem" class="dropdown-item">Harem</a></li>
+                <li><a id="Horror" class="dropdown-item">Horror</a></li>
+                <li><a id="Magic" class="dropdown-item">Magic</a></li>
+                <li><a id="Mecha" class="dropdown-item">Mecha</a></li>
+                <li><a id="Military" class="dropdown-item">Military</a></li>
+                <li><a id="Music" class="dropdown-item">Music</a></li>
+                <li><a id="Romance" class="dropdown-item">Romance</a></li>
+                <li><a id="School" class="dropdown-item">School</a></li>
+                <li><a id="Scifi" class="dropdown-item">Scifi</a></li>
+                <li><a id="Shoujo" class="dropdown-item">Shoujo</a></li>
+                <li><a id="Slice of life" class="dropdown-item">Slice of life</a></li>
+                <li><a id="Sport" class="dropdown-item">Sport</a></li>
+                <li><a id="Supernatural" class="dropdown-item">Supernatural</a></li>
+                <li><a id="Vampire" class="dropdown-item">Vampire</a></li>
+                <li><a id="Isekai" class="dropdown-item">Isekai</a></li>              
+
+              </ul>
+            </div>
+  
+            <div class="dropdown">
+              <button class="btn nav-item dropdown-toggle w-100 text-warning rounded-0" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                Year
+              </button>
+              <ul style="height: 30vh;overflow-y:scroll;overflow-x: hidden;" class="dropdown-menu rounded-3 bg-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a id="2022" class="dropdown-item">2024</a></li>
+                <li><a id="2022" class="dropdown-item">2023</a></li>
+                <li><a id="2022" class="dropdown-item">2022</a></li>
+                <li><a id="2021" class="dropdown-item">2021</a></li>
+                <li><a id="2020" class="dropdown-item">2020</a></li>
+                <li><a id="2019" class="dropdown-item">2019</a></li>
+                <li><a id="2018" class="dropdown-item">2018</a></li>
+                <li><a id="2017" class="dropdown-item">2017</a></li>
+                <li><a id="2016" class="dropdown-item">2016</a></li>
+                <li><a id="2015" class="dropdown-item">2015</a></li>
+                <li><a id="2014" class="dropdown-item">2014</a></li>
+                <li><a id="2013" class="dropdown-item">2013</a></li>
+                <li><a id="2012" class="dropdown-item">2012</a></li>
+                <li><a id="2011" class="dropdown-item">2011</a></li>
+                <li><a id="2010" class="dropdown-item">2010</a></li>
+                <li><a id="2020" class="dropdown-item">2009</a></li>
+                <li><a id="2019" class="dropdown-item">2008</a></li>
+                <li><a id="2018" class="dropdown-item">2007</a></li>
+                <li><a id="2017" class="dropdown-item">2006</a></li>
+                <li><a id="2016" class="dropdown-item">2005</a></li>
+                <li><a id="2015" class="dropdown-item">2004</a></li>
+                <li><a id="2014" class="dropdown-item">2003</a></li>
+                <li><a id="2013" class="dropdown-item">2002</a></li>
+                <li><a id="2012" class="dropdown-item">2001</a></li>
+                <li><a id="2011" class="dropdown-item">2000</a></li>
+            </div>
+  
+          <a href="../../news.html"><button id="News" type="button" class="nav-item btn text-warning rounded-0 w-100">News</button>
+          </a>  
+             </ul>
+          
+             
+            
+        </div>
+        
+        <div class="mainSearchBox ms-lg-1 col-12 col-sm-8 col-md-6">
+          <input id="MainSearchBox" type="text" class="w-75 anime-page" placeholder="Search">
+          <div class="mainSearchResultDiv bg-dark ">
+            <div id="MainSearchResult" class="">               
+           
+              
+            </div>   
+          </div>
+         </div>
+      </div>
+    </nav>
+<!--Navbar--> 
+
+  <div class="" id="mainSlider-item-1">
+  <div class="col-lg-10 p-lg-3 p-2 mx-auto bg-black rounded-3 shadow-lg text-warning mt-5">
+    <!--header-->
+            <div class="">
+                <h1 class="text-center pt-3 text-color-yellow ">Fullmetal Alchemist: Brotherhood</h1>
+            </div>
+            <hr class="w-75 border border-2 border-warning mx-auto">
+    <!--header-->
+    
+  
+    <div class="d-flex flex-lg-row flex-column justify-content-between mt-lg-4">
+      <!--slide-->
+      <div id="carouselExampleDark" class="carousel col-11 col-lg-6 carousel-dark slide mt-4 mx-auto mx-lg-0" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="fullmetal alchemist brotherhood.jpg" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="fullmetal alchemist brotherhood img1.jpg" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="fullmetal alchemist brotherhood img2.jpg" class="d-block img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+
+      </div>
+<!--slide-->
+
+<div class="vr"></div>
+
+
+<div class="col-lg-5 col-11 mx-auto mx-lg-0 my-auto">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4 border p-lg-2 p-2">
+        Name
+      </div>
+      <div class="col-8 border p-lg-2 p-2">
+        Fullmetal Alchemist: Brotherhood
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Release Date
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      Apr 5, 2009
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Rating
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      9.1/10 (IMBD)
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Total Episode
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      64
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border p-lg-2 p-2">
+      Genres
+    </div>
+    <div class="col-8 border p-lg-2 p-2">
+      Action, Adventure, Drama, Darkfantasy, Magic, Military
+    </div>
+  </div>
+</div>
+
+</div>
+    </div>
+
+    <hr class="w-100 w-lg-50 mt-5"></hr>
+
+  <!--para-->
+                <div class="mt-4 ps-lg-2 ms-3 ">
+                  <h3 class="mt-4 d-inline text-color-yellow">Fullmetal Alchemist: Brotherhood </h3><span class="mt-5">(repreviews)</span>
+              </div>
+      
+              <p class="mt-3 border-bottom border-dark pb-4 text-color-yellow text-lg-start p-lg-3  col-11 mx-auto mx-lg-auto">
+                "တစ်ခုခုကို လိုချင်ရင် အဲ့တာနဲ့တူညီတဲ့တန်ဖိုးအတိုင်း တစ်ခုခု ပြန်ပေးဆပ်ရမယ်"
+အဲ့တာဟာ အဂ္ဂိရတ်ပညာရဲ့ သာတူညီမျှဖလှယ်ခြင်းနိယာမပဲဖြစ်ပါတယ်။
+Edwar Elric နဲ့ Alphonse Elric တို့ ညီနောင်နှစ်ယောက်ဟာ အဂ္ဂိရတ်ပညာမှာ တားမြစ်ထားတဲ့လုပ်ရပ်ဖြစ်တဲ့ လူသားအသွင်ပြောင်းခြင်းကို ပြုလုပ်ခဲ့ပြီးမှသာ အဲ့ဒီနိယာမကိုနားလည်သဘောပေါက်သွားကြပါတော့တယ်။
+သေသွားတဲ့မိခင်ဖြစ်သူကို ပြန်ခေါ်ဖို့ ကြိုးစားရာမှာ Edward တစ်ယောက်ကတော့ ဘယ်ဘက်
+ခြေထောက်တစ်ဖက်ကိုပေးဆပ်ခဲ့ရပြီး ညီဖြစ်သူမှာတော့ ခန္ဓာတစ်ခုလုံးကိုပေးဆပ်ခဲ့လိုက်ရပါတယ်။
+ဒါပေမဲ့လည်း မိခင်ကိုတော့ ပြန်လည်အသက်သွင်းလို့မရခဲ့ပါဘူး၊ ညီဖြစ်သူကိုပါ မဆုံးရှုံးချင်တဲ့Edward တစ်ယောက်ကတော့ ညီဖြစ်သူရဲ့ဝိဉာဉ်လေးကို ပြန်ရဖို့ ညာဘက်လက်ကိုပါ စတေးလိုက်ပါတော့တယ်။
+ဒါဟာ တစ်ခုခုလိုချင်ရင် တခုခုပြန်ပေးဆပ်ရတဲ့နိယာမပါပဲ။
+အဲ့ဒီလိုနဲ့ Edward တစ်ယောက် ညီဖြစ်သူ Alphonse ရဲ့ဝိဉာဉ်ကိ​ု သံချပ်ကာဝတ်စုံထဲမှာထည့်ပိတ်ထားလိုက်ပါတယ်။
+​အဲ့ဒီနောက်မှာတော့ ညီအစ်ကိုနှစ်ယောက်ဟာ သူတို့ရဲ့ခန္ဓာကိုယ်တွေကို ပြန်ယူဖို့ ခရီးစတင်ခဲ့ပါတော့တယ်။
+သူတို့ရဲ့ခရီးလမ်းမှာ ဘာတွေကြုံဆုံရမလဲဆိုတာတော့ ဆက်လက်စောင့်ကြည့်လိုက်ရအောင်ပါ။
+Fullmetal Alchemist: Brotherhood ဟာ ကြည့်သင့်တဲ့ top 10 anime ထဲမှာပါတာမို့ ကြည့်ဖြစ်အောင်ကြည့်လိုက်ပါနော်</p>
+      <!--para-->
+      
+      <!--download-->
+   
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="name" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="description" content="Kaguya-sama Wa Kokurasetai season 1 episode 2 mmsub" /><meta itemprop="uploadDate" content="2022-07-28T07:43:57.000Z" /><meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/U6qPV1Yua3_jKNwr_/x120" /><meta itemprop="duration" content="P1440S" /><meta itemprop="embedUrl" content="https://www.dailymotion.com/embed/video/x8cq4pr" /><iframe id="VideoPlayDiv" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://mega.nz/embed/h5YURbBQ#-anIxJtuamYT1LRiJCb5HwmZ25h9ucgEqK81hQKvYk8" width="100%" height="100%"   allow="autoplay" allowfullscreen></iframe><p class="position-absolute top-0 start-0 text-white" id="CurrentEpisode">Fullmetal Alchemist: Brotherhood ep 1</p></div>
+    
+      <hr class="w-100 w-lg-50 mt-3"></hr>
+
+    
+      <div class="ms-1">
+        <li>Episode 1 - <a href="#VideoPlayDiv" class="Episodes">episode1</a></li>
+        <li>Episode 2 - <a href="#VideoPlayDiv" class="Episodes">episode2</a></li>
+        <li>Episode 3 - <a href="#VideoPlayDiv" class="Episodes">episode3</a></li>
+        <li>Episode 4 - <a href="#VideoPlayDiv" class="Episodes">episode4</a></li>
+        <li>Episode 5 - <a href="#VideoPlayDiv" class="Episodes">episode5</a></li>
+        <li>Episode 6 - <a href="#VideoPlayDiv" class="Episodes">episode6</a></li>
+        <li>Episode 7 - <a href="#VideoPlayDiv" class="Episodes">episode7</a></li>
+        <li>Episode 8 - <a href="#VideoPlayDiv" class="Episodes">episode8</a></li>
+        <li>Episode 9 - <a href="#VideoPlayDiv" class="Episodes">episode9</a></li>
+        <li>Episode 10 - <a href="#VideoPlayDiv" class="Episodes">episode10</a></li>
+        <li>Episode 11 - <a href="#VideoPlayDiv" class="Episodes">episode11</a></li>
+        <li>Episode 12 - <a href="#VideoPlayDiv" class="Episodes">episode12</a></li>
+        <li>Episode 13 - <a href="#VideoPlayDiv" class="Episodes">episode13</a></li>
+        <li>Episode 14 - <a href="#VideoPlayDiv" class="Episodes">episode14</a></li>
+        <li>Episode 15 - <a href="#VideoPlayDiv" class="Episodes">episode15</a></li>
+        <li>Episode 16 - <a href="#VideoPlayDiv" class="Episodes">episode16</a></li>
+        <li>Episode 17 - <a href="#VideoPlayDiv" class="Episodes">episode17</a></li>
+        <li>Episode 18 - <a href="#VideoPlayDiv" class="Episodes">episode18</a></li>
+        <li>Episode 19 - <a href="#VideoPlayDiv" class="Episodes">episode19</a></li>
+        <li>Episode 20 - <a href="#VideoPlayDiv" class="Episodes">episode20</a></li>
+        <li>Episode 21 - <a href="#VideoPlayDiv" class="Episodes">episode21</a></li>
+        <li>Episode 22 - <a href="#VideoPlayDiv" class="Episodes">episode22</a></li>
+        <li>Episode 23 - <a href="#VideoPlayDiv" class="Episodes">episode23</a></li>
+        <li>Episode 24 - <a href="#VideoPlayDiv" class="Episodes">episode24</a></li>
+        <li>Episode 25 - <a href="#VideoPlayDiv" class="Episodes">episode25</a></li>
+        <li>Episode 26 - <a href="#VideoPlayDiv" class="Episodes">episode26</a></li>
+        <li>Episode 27 - <a href="#VideoPlayDiv" class="Episodes">episode27</a></li>
+        <li>Episode 28 - <a href="#VideoPlayDiv" class="Episodes">episode28</a></li>
+        <li>Episode 29 - <a href="#VideoPlayDiv" class="Episodes">episode29</a></li>
+        <li>Episode 30 - <a href="#VideoPlayDiv" class="Episodes">episode30</a></li>
+        <li>Episode 31 - <a href="#VideoPlayDiv" class="Episodes">episode31</a></li>
+        <li>Episode 32 - <a href="#VideoPlayDiv" class="Episodes">episode32</a></li>
+        <li>Episode 33 - <a href="#VideoPlayDiv" class="Episodes">episode33</a></li>
+        <li>Episode 34 - <a href="#VideoPlayDiv" class="Episodes">episode34</a></li>
+        <li>Episode 35 - <a href="#VideoPlayDiv" class="Episodes">episode35</a></li>
+        <li>Episode 36 - <a href="#VideoPlayDiv" class="Episodes">episode36</a></li>
+        <li>Episode 37 - <a href="#VideoPlayDiv" class="Episodes">episode37</a></li>
+        <li>Episode 38 - <a href="#VideoPlayDiv" class="Episodes">episode38</a></li>
+        <li>Episode 39 - <a href="#VideoPlayDiv" class="Episodes">episode39</a></li>
+        <li>Episode 40 - <a href="#VideoPlayDiv" class="Episodes">episode40</a></li>
+        <li>Episode 41 - <a href="#VideoPlayDiv" class="Episodes">episode41</a></li>
+        <li>Episode 42 - <a href="#VideoPlayDiv" class="Episodes">episode41</a></li>
+        <li>Episode 43 - <a href="#VideoPlayDiv" class="Episodes">episode43</a></li>
+        <li>Episode 44 - <a href="#VideoPlayDiv" class="Episodes">episode44</a></li>
+        <li>Episode 45 - <a href="#VideoPlayDiv" class="Episodes">episode45</a></li>
+        <li>Episode 46 - <a href="#VideoPlayDiv" class="Episodes">episode46</a></li>
+        <li>Episode 47 - <a href="#VideoPlayDiv" class="Episodes">episode47</a></li>
+        <li>Episode 48 - <a href="#VideoPlayDiv" class="Episodes">episode48</a></li>
+        <li>Episode 49 - <a href="#VideoPlayDiv" class="Episodes">episode49</a></li>
+        <li>Episode 50 - <a href="#VideoPlayDiv" class="Episodes">episode50</a></li>
+        <li>Episode 51 - <a href="#VideoPlayDiv" class="Episodes">episode51</a></li>
+        <li>Episode 52 - <a href="#VideoPlayDiv" class="Episodes">episode52</a></li>
+        <li>Episode 53 - <a href="#VideoPlayDiv" class="Episodes">episode53</a></li>
+        <li>Episode 54 - <a href="#VideoPlayDiv" class="Episodes">episode54</a></li>
+        <li>Episode 55 - <a href="#VideoPlayDiv" class="Episodes">episode55</a></li>
+        <li>Episode 56 - <a href="#VideoPlayDiv" class="Episodes">episode56</a></li>
+        <li>Episode 57 - <a href="#VideoPlayDiv" class="Episodes">episode57</a></li>
+        <li>Episode 58 - <a href="#VideoPlayDiv" class="Episodes">episode58</a></li>
+        <li>Episode 59 - <a href="#VideoPlayDiv" class="Episodes">episode59</a></li>
+        <li>Episode 60 - <a href="#VideoPlayDiv" class="Episodes">episode60</a></li>
+        <li>Episode 61 - <a href="#VideoPlayDiv" class="Episodes">episode61</a></li>
+        <li>Episode 62 - <a href="#VideoPlayDiv" class="Episodes">episode62</a></li>
+        <li>Episode 63 - <a href="#VideoPlayDiv" class="Episodes">episode63</a></li>
+        <li>Episode 64 - <a href="#VideoPlayDiv" class="Episodes">episode64</a></li>
+      </div>
+            
+      <hr class="w-100 w-lg-50 mt-3"></hr>
+      <li>Fullmetal Alchemist - <a href="../Fullmetal Alchemist/Fullmetal Alchemist.html" class="Episodes"> Fullmetal Alchemist</a></li>
+      </div>
+   <!--Footer-->
+   <div id="footer" class="w-100 p-3 mt-5 bg-black">
+
+    <h6 class="text-warning text-center" style="font-size:small;">Anime and Anime News Myanmar where you can watch Anime mmsub online with hight qualiy and no ads. Also we are informing you about Updated Anime News!</h6>
+    <h6 class="text-warning text-center" style="font-size:small ;">Please Join Our Telegram and YouTube channels!</h6>
+    <i class="icofont-telegram"></i>
+
+    <div class="d-flex justify-content-center">
+    <a href="https://t.me/animeandanimenewsmyanmar" target="_blank" class="text-decoration-none">
+      <span class="badge text-bg-primary p-1">
+        <i class="bi bi-telegram"></i>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" previewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+      </svg>
+      Telegram
+      </span>
+    </a>
+
+    <a href="https://www.youtube.com/channel/UCugJ5BMfs_iea6PMwN1W27g" target="_blank" class="text-decoration-none">
+      <span class="badge text-bg-danger p-1 ms-1">
+        <i class="bi bi-youtube"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" previewBox="0 0 16 16">
+          <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+        </svg>
+        YouTube
+      </span>
+    </a>
+
+    
+    <a href="https://formsubmit.co/el/juziya" target="_blank" class="text-decoration-none">
+      <span class="badge text-bg-success p-1 ms-1">
+        <i class="bi bi-envelope"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" previewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+        </svg>
+        E-mail
+      </span>
+    </a>
+  </div>
+
+  </div>
+<!--Footer-->
+      </div>
+
+      <div id="MainSliderResultDivWithBack" class=" ms-1">
+        <button class="badge bg-warning text-black mt-2 d-inline" id="BackArrow"><ion-icon name="arrow-back-outline"></ion-icon> back</button>
+        <div class="d-flex flex-row justify-content-between">
+          <h2 id="mainSliderResultDivH2" class="ms-2 mt-2 text-color-yellow text-start d-inline-block">
+        
+          </h2>
+          <h2 class="me-2 text-white" id="PageOf">Page <span id="CurrentPage">1</span> of <span id="TotalPage">4</span></h2>
+        </div>
+      
+    </div>
+
+              <!--Main Slide Result-->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+        <div class="carousel-indicators d-none">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+     
+     
+        <div class="carousel-inner">
+     
+        <!--movie-card carousel-item 1-->
+          <div class="carousel-item active movieSeries-carousel">
+           <div id="mainSliderResultDiv" class="row g-1 p-2">
+     
+           </div>
+     
+          </div>
+             <!--movie carousel-item 1-->
+     
+            <!--movie carousel-item 2-->
+          <div class="carousel-item movieSeries-carousel">
+           <div id="mainSliderResultDiv2" class="row g-1 p-2">
+     
+           </div>
+          </div>
+           <!--movie carousel-item 2-->
+     
+         <!--movie carousel-item 3-->
+          <div class="carousel-item movieSeries-carousel">
+           <div id="mainSliderResultDiv3" class="row g-1 p-2">
+     
+           </div>
+          </div>
+           <!--movie carousel-item 4-->
+           <div class="carousel-item movieSeries-carousel">
+            <div id="mainSliderResultDiv4" class="row g-1 p-2">
+      
+            </div>
+           </div>
+     
+        </div>  
+      </div>
+
+       <!--movie-card Pagination-->
+ <navaria-label="Page navigation example style="width: 100%;">
+ <ul id="mainSliderResultDivPagination" class="pagination d-flex justify-content-center mt-2">
+
+   
+
+ </ul>
+</navaria-label=>
+<!--movie-card Pagination-->
+
+        <style>
+         a{
+             text-decoration: none;
+             color: red;
+         }
+        </style>
+
+<script>
+  let Episodes = document.querySelectorAll(".Episodes")
+  let VideoPlayDiv = document.getElementById("VideoPlayDiv");
+  let CurrentEpisode = document.getElementById("CurrentEpisode")
+
+
+  Episodes.forEach(item => {
+item.addEventListener("click" , (event)=>{
+let ClickBtn = event.target.innerHTML;
+if(ClickBtn == "episode1"){
+VideoPlayDiv.src = "https://mega.nz/embed/h5YURbBQ#-anIxJtuamYT1LRiJCb5HwmZ25h9ucgEqK81hQKvYk8";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 1"
+}if(ClickBtn == "episode2"){
+VideoPlayDiv.src = "https://mega.nz/embed/V94BhIRS#58bwoTSgT8AVQ7Qi0TCeqtRogE_Y7F-JbDN9PHDSPrg";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 2"
+}if(ClickBtn == "episode3"){
+VideoPlayDiv.src = "https://mega.nz/embed/k84SyBRQ#Cr0bchjBK1E4LFxykHTX2NSWc-aTHlbUl2F9s_rsnFA";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 3"
+}if(ClickBtn == "episode4"){
+VideoPlayDiv.src = "https://mega.nz/embed/kl4Wwa6Q#u6zFo5bLHPoVqu1IYG9yGn36MWj0Cy5hBkjHmILrcpI" ;
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 4"
+}if(ClickBtn == "episode5"){
+VideoPlayDiv.src = "https://mega.nz/embed/JwwgRTRC#IBegUPJ7nGzYUCFw1hQ9zvP_k8Z_bvwssIduxcKiYHY";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 5"
+}if(ClickBtn == "episode6"){
+VideoPlayDiv.src = "https://mega.nz/embed/9xQVlCLT#jph1Cn3KpV6W1_KbxV3kSnPtf0cqDOATv_bKTWxK__c";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 6"
+}if(ClickBtn == "episode7"){
+VideoPlayDiv.src = "https://mega.nz/embed/9t5ggZyT#ZUBfn8cm7rujZEOJUT2lb1SVbmRElxn_d_twr_bLZxY";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 7"
+}if(ClickBtn == "episode8"){
+VideoPlayDiv.src = "https://mega.nz/embed/wgwSkBAS#FoleXHJ7P_izwVQa_9yVuDD5wRWDMdeOkvpqELipqVk";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 8"
+}if(ClickBtn == "episode9"){
+VideoPlayDiv.src = "https://mega.nz/embed/pghCGRBI#qVLMdB-9oTLZT9FnKqDfrDDe_8fwkz66mYohPuFcFKg";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 9"
+}if(ClickBtn == "episode10"){
+VideoPlayDiv.src = "https://mega.nz/embed/kghiSIpB#gecDEUQm_WnFva3DaPaFjjqF2rThzxg7lbwuUON7B9Q";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 10"
+}if(ClickBtn == "episode11"){
+VideoPlayDiv.src = "https://mega.nz/embed/ttQlAAgQ#jGGEwOXqXi7EQwT-mBYdzOB0wl8J3I6wuxX59pP6Y68";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 11"
+}if(ClickBtn == "episode12"){
+VideoPlayDiv.src = "https://mega.nz/embed/UhpS0CCB#EUCxhn2-mPjbuj0oKNGgXrnMLap3Hu4mOgUbjn_E8mk";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 12"
+}if(ClickBtn == "episode13"){
+VideoPlayDiv.src = "https://mega.nz/embed/FxwnXI6a#BEGKMH6cM3-GYc5UuqWbXtQFCti4X5sRNXyKVA3FPCg";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 13"
+}if(ClickBtn == "episode14"){
+VideoPlayDiv.src = "https://mega.nz/embed/Z8hxyAIY#2UpoU-oUc1MDDvhfa31zeQxkKmwkNq5Q4t_kiFOk4NA";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 14"
+}if(ClickBtn == "episode15"){
+VideoPlayDiv.src = "https://mega.nz/embed/FkxEkSha#r55Z1E9jKzO3dbPFD3Dj79BotbEL3CH_sOqbd_lUS8M";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 15"
+}if(ClickBtn == "episode16"){
+VideoPlayDiv.src = "https://mega.nz/embed/M1QTBDQJ#GaQwQrTqHUi_IPD7Y3WEu6ZF9b4gBHhZ7sHXUDCBqKU" ;
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 16"
+}if(ClickBtn == "episode17"){
+VideoPlayDiv.src = "https://mega.nz/embed/Y1B23RaL#naDJmB1LnEXp-skTFvUI_EW32qKIzsdyXQoJ_YbhQOw";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 17"
+}if(ClickBtn == "episode18"){
+VideoPlayDiv.src = "https://mega.nz/embed/8hZEgZxA#4twpALAck4IYZJ18S4t0puYOADAE2IcJRyKBrkgh5IU";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 18"
+}if(ClickBtn == "episode19"){
+VideoPlayDiv.src = "https://mega.nz/embed/05hUwBRB#y-PxWhnwP4ijJpqIHBTHs-fUKZpPAJq45Do5LoQ7Ktc";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 19"
+}if(ClickBtn == "episode20"){
+VideoPlayDiv.src = "https://mega.nz/embed/8whm2R5Z#ExKsi1tECEVNXI3T7A7rfm4BaQ8kfY6OgnNS_C9wouM";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 20"
+}if(ClickBtn == "episode21"){
+VideoPlayDiv.src = "https://mega.nz/embed/s0pURQZR#AJVmUYSF1tcOlaXDjuJ3YGiKGowut7zkADYp3wExw6w";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 21"
+}if(ClickBtn == "episode22"){
+VideoPlayDiv.src = "https://mega.nz/embed/E5I1UQaZ#1WlEM1xsHob69Lcsa9gboEiJJcde6Y-HKTQi3U6YHzc";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 22"
+}if(ClickBtn == "episode23"){
+VideoPlayDiv.src = "https://mega.nz/embed/xthkSR4S#hx47P-cbtq6VNRYDb0149jwwDwXhfNAza6PmuCiWTG4";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 23"
+}if(ClickBtn == "episode24"){
+VideoPlayDiv.src = "https://mega.nz/embed/x4gW2BKa#XRtYvybCszn9CQMJqWoJlKa7fatt965i_2zl2rLs-GU";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 24"
+}if(ClickBtn == "episode25"){
+VideoPlayDiv.src = "https://mega.nz/embed/08IEGbLQ#hno4vOTvEIEV2XKbQEvZWsaz1DX1wxvaKhDMLjlRYFc";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 25"
+}if(ClickBtn == "episode26"){
+VideoPlayDiv.src = "https://mega.nz/embed/howwVaLB#rl0AHuK04cQBF0A520z1MAFdCR_-urpxk-w_IlcAQHw";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 26"
+}if(ClickBtn == "episode27"){
+VideoPlayDiv.src = "https://mega.nz/embed/wk5jjACL#d3AMd3IyJt_CImDCMNUqjghLaK5H5lF-WeFg96YRj30";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 27"
+}if(ClickBtn == "episode28"){
+VideoPlayDiv.src = "https://mega.nz/embed/Qp40VKgQ#9bNgcui_YXoWd-zmAOhGULXdJ4cqQoiDvdnUF9QMdqk";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 28"
+}if(ClickBtn == "episode29"){
+VideoPlayDiv.src = "https://mega.nz/embed/d1o1mZTC#adq7n-tZC8Yq8cCPJMdea8UE6rM7UKAQ2xKmo1hw2pg" ;
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 29"
+}if(ClickBtn == "episode30"){
+VideoPlayDiv.src = "https://mega.nz/embed/RsYlHSZD#bodXVd-fDIMNaH_2A8Apf9y-U2g1L5Kmxf_KsOawOpo";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 30"
+}if(ClickBtn == "episode31"){
+VideoPlayDiv.src = "https://mega.nz/embed/MwJRnLQa#dQDfyIMfpVzIqNuxD22hauQ7wGKRmUTNRGYaZuNvAZY";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 31"
+}if(ClickBtn == "episode32"){
+VideoPlayDiv.src = "https://mega.nz/embed/NpY1VJ7K#4U0uuCdD-KViEej-0f06QbxJQpTVNbCPTpZaNk39gkE";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 32"
+}if(ClickBtn == "episode33"){
+VideoPlayDiv.src = "https://mega.nz/embed/l4JVyRoJ#OxVZRsixjL_eqBf9VfcMKKuZ6McTfTcCR5cLiDLNVug";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 33"
+}if(ClickBtn == "episode34"){
+VideoPlayDiv.src = "https://mega.nz/embed/d1QDyBRC#Go2aAVGMU3SmL9QMWKNwmWgkg6vVPA485GhNVaM_aFU";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 34"
+}if(ClickBtn == "episode35"){
+VideoPlayDiv.src = "https://mega.nz/embed/NhRk1brD#5RoDY6LNPdG8thSo6Vq9rrmybJxueasw1syBstWjHbY";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 35"
+}if(ClickBtn == "episode36"){
+VideoPlayDiv.src = "https://mega.nz/embed/kw4iSIgY#tSIzRIqnyU0yrjVezI1ShIpMpMEp5_EeD5Jag3xIG-g";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 36"
+}if(ClickBtn == "episode37"){
+VideoPlayDiv.src = "https://mega.nz/embed/l9hCXRSD#4e79po1p7XkJDqtlLIYoa92Qp0LhaMzSb5yfPdS9F2k";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 37"
+}if(ClickBtn == "episode38"){
+VideoPlayDiv.src = "https://mega.nz/embed/lkQQSSgI#hAy1jZ9b-KuXePnbTmLbXy9wKyFJkepoL20LSyzYW_c";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 38"
+}if(ClickBtn == "episode39"){
+VideoPlayDiv.src = "https://mega.nz/embed/olpDTa6C#40PMeeyd8eb_lnD2G2m7N3bPlc4sCGX9LZawnCzMYnM";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 39"
+}if(ClickBtn == "episode40"){
+VideoPlayDiv.src = "https://mega.nz/embed/18JkhSpa#ZnJNO4dTY_SjsYA6rDYzBCzUU80D0upFjCgFHENIHKE";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 40"
+}if(ClickBtn == "episode41"){
+VideoPlayDiv.src = "https://mega.nz/embed/0xZAVBqS#Vn50xnVp5py9DueJDC9zkLPz0w8C4gzGXPzbs2ea3lA" ;
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 41"
+}if(ClickBtn == "episode42"){
+VideoPlayDiv.src = "https://mega.nz/embed/tlphHAgT#acABmhnTJnDW75prCl77DUL-F4zamL-TWSsfs2I7j-M";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 42"
+}if(ClickBtn == "episode43"){
+VideoPlayDiv.src = "https://mega.nz/embed/lggQUawJ#qiCwhv_bftsuPmB3qoZiiktFvjon_Xh7QbUbtD96law";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 43"
+}if(ClickBtn == "episode44"){
+VideoPlayDiv.src = "https://mega.nz/embed/8gZFxSZK#YRBOsq_694Gx8t85obvYIgkH7cj8VX0MBbVPLq5VkXM";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 44"
+}if(ClickBtn == "episode45"){
+VideoPlayDiv.src = "https://mega.nz/embed/Mpo3mJ7I#HZ-xxEkLmfd1_i2LBHj2hfG7LES9KFQ8Gvd2ZF0xexk";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 45"
+}if(ClickBtn == "episode46"){
+VideoPlayDiv.src = "https://mega.nz/embed/V1hAkAgK#pKncz9eGuziDKdUNSGjg3HhL_HZuronoOrizCgPQq3A";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 46"
+}if(ClickBtn == "episode47"){
+VideoPlayDiv.src = "https://mega.nz/embed/YphD2LZb#lVWHyDMM0BCtOz8CFlCQmmzxOimortblDd14tRcSAK4";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 47"
+}if(ClickBtn == "episode48"){
+VideoPlayDiv.src = "https://mega.nz/embed/5sRgyJ5A#EypVRJ2B1Hz5chS2vj08se9oO8SSO9OnvRFSB-WV2Iw";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 48"
+}if(ClickBtn == "episode49"){
+VideoPlayDiv.src = "https://mega.nz/embed/1xoHjIAb#OA19vjhM-m6_XfCYczF5WlKdhtEfsnPHR4_BS9dzubI";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 49"
+}if(ClickBtn == "episode50"){
+VideoPlayDiv.src = "https://mega.nz/embed/d9IiHRZD#UMZ4Y2PkmMxcCuhQuI0N9ZaFzf1zKRcq1xVMcFSR3nA";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 50"
+}if(ClickBtn == "episode51"){
+VideoPlayDiv.src = "https://mega.nz/embed/wxJ0mYIZ#Eaq0RMxkk8OzE_Sbg1zxzPs5FyXpC-u3jhxRO2Orsmg";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 51"
+}if(ClickBtn == "episode52"){
+VideoPlayDiv.src = "https://mega.nz/embed/h0Rl2bjQ#AbHnrP5b6tHrVkjaNFsN9rIjODOVnrWXsO1I7wClAbA";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 52"
+}if(ClickBtn == "episode53"){
+VideoPlayDiv.src = "https://mega.nz/embed/c9gRSIZD#RhRsSd10bYYyRz3nDDW--VWr88Y1H2wiPLruwnZwvw4";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 53"
+}if(ClickBtn == "episode54"){
+VideoPlayDiv.src = "https://mega.nz/embed/Mxo3RR4R#IDzEG-bP2p3nr8uXh0YcHR8Fv1L0m3SWH4GAdqlmkuo";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 54"
+}if(ClickBtn == "episode55"){
+VideoPlayDiv.src = "https://mega.nz/embed/1sxgFBDZ#HSjo27HBG1EfgpaShdeYXsEGmi_F5oqzXz_a2g4Ngu8";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 55"
+}if(ClickBtn == "episode56"){
+VideoPlayDiv.src = "https://mega.nz/embed/kwQhGTwR#IgTI2SNWvPTZQzgvfU5G53VWiry6hVpdCJJU0xI5A9Y" ;
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 56"
+}if(ClickBtn == "episode57"){
+VideoPlayDiv.src = "https://mega.nz/embed/0lhVxDQA#Qq4WoTNrz7QA2h8qcROnWpYZCqVOqbQZ9UDJoq7BcDk";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 57"
+}if(ClickBtn == "episode58"){
+VideoPlayDiv.src = "https://mega.nz/embed/JoBVWRDC#nKvMIF0FgoU5-nDtjJ1sgFmjQOYd0FVxHBNs9XA0AlU";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 58"
+}if(ClickBtn == "episode59"){
+VideoPlayDiv.src = "https://mega.nz/embed/x4oGEToQ#KUdi9N8oCy62gDsEouMeomrmiD-iI1xlSgCePR_Hv0M";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 59"
+}if(ClickBtn == "episode60"){
+VideoPlayDiv.src = "https://mega.nz/embed/R5ow0bQQ#Z2Sk9_ZCqYLyGgMxAP5-RrWdj04nVkJmoHdDntwKEek";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 60"
+}if(ClickBtn == "episode61"){
+VideoPlayDiv.src = "https://mega.nz/embed/Zp4hUYRI#563o20DRwdfZvPvylKRF3VelesP6dDRVhNtTTmqFJzw";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 61"
+}if(ClickBtn == "episode62"){
+VideoPlayDiv.src = "https://mega.nz/embed/NxgkBKIA#fOO5pNTuMOkM_XVtbLp-ZCRmHseV8iA2K4XCnvOI_HY";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 62"
+}if(ClickBtn == "episode63"){
+VideoPlayDiv.src = "https://mega.nz/embed/VkAQnb4J#hmZfr5Jwt4B30sIdMA45meYQa41eF8Ut_UzPJp0o5FI";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 63"
+}if(ClickBtn == "episode64"){
+VideoPlayDiv.src = "https://mega.nz/embed/g1oghD7Y#5C4GFbDKpIJoFQEPlUYYkisOY_4nr_LttW-r27R7gZQ";
+CurrentEpisode.innerHTML = "Fullmetal Alchemist:Brotherhood ep 64"
+}
+})
+})
+ </script>
+
+             <script src="../../bootstrap/bootstrap.bundle.min.js"></script>
+             <script src="../../bootstrap/popper.min.js"></script>
+             <script src="../../bootstrap/bootstrap.min.js"></script>
+             <script src="../../bootstrap/bootstrap.js"></script>
+             <script src="../../bootstrap/fontawesome.js" crossorigin="anonymous"></script>
+             <script src="../../searchbox.js"></script>
+             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+    
+
+    

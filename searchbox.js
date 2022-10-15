@@ -918,8 +918,20 @@ let AnimeMovieAndSeriesArray = [
       href : "Anime Series/seirei gensouki/Seirei Gensouki.html",
       animetype : "Series",
       sub : "12 ep",
-      rating : "7",
+      rating : "7.0",
       sugget : "no"
+      },
+      {
+      shortName : "Jahy-sama wa Kujikenai!",
+      name : "Jahy-sama wa Kujikenai!",
+      year : "2021",
+      Source : "images/jahy-sama wa kujikenai.jpg",
+      geners : "AComedy, Supernatural, Demon",
+      href : "Anime Series/Jahy-sama wa Kujikenai/Jahy-sama wa Kujikenai.html",
+      animetype : "Series",
+      sub : "20 ep",
+      rating : "7.0",
+      sugget : "yes"
       },
       {
       shortName : "Komi Can’t Communicate season 1",
@@ -1185,6 +1197,18 @@ let AnimeMovieAndSeriesArray = [
       rating : "7.4",
       sugget : "no"
       }, 
+      {
+      shortName : "Uzaki-chan wa Asobitai!",
+      name : "Uzaki-chan wa Asobitai!",
+      year : "2020",
+      Source : "images/Uzaki-chan wa Asobitai.jpg",
+      geners : "Comedy, School, Ecchi, Romance",
+      href : "Anime Series/Uzaki-chan wa Asobitai/Uzaki-chan wa Asobitai.html",  
+      animetype : "Series",   
+      sub : "12 ep",
+      rating : "7.0",
+      sugget : "yes"
+      },
       {
       shortName : "Deca-Dence",
       name : "Deca-Dence",
@@ -1582,6 +1606,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "yes"
       },
       {
+      shortName : "Masamune-kun no Revenge",
+      name : "Masamune-kun no Revenge",
+      year : "2017",
+      Source : "images/masamune-kun no revenge.png",
+      geners : "Comedy, Romance, Harem, School",
+      href : "Anime Series/Masamune-kun's Revenge/Masamune-kun's Revenge.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "6.7",
+      sugget : "yes"
+      },
+      {
       shortName : "Classroom of the Elite season 1",
       name : "Classroom of the Elite season 1",
       year : "2016",
@@ -1786,6 +1822,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "no"
       },
       {
+      shortName : "Maoyuu Maou Yuusha",
+      name : "Maoyuu Maou Yuusha",
+      year : "2013",
+      Source : "images/Maoyuu Maou Yuusha.jpg",
+      geners : "Adventure, Fantasy, Romance, Demon, Magic, Comedy",
+      href : "Anime Series/Maoyuu Maou Yuusha/Maoyuu Maou Yuusha.html",
+      animetype : "Series",
+      sub : "12 ep",
+      rating : "7.2",
+      sugget : "yes"
+      },
+      {
       shortName : "Sword Art Online Aincard season 1",
       name : "Sword Art Online Aincard season 1",
       year : "2012",
@@ -1846,6 +1894,18 @@ let AnimeMovieAndSeriesArray = [
       sugget : "yes"
       },
       {
+      shortName : "Fullmetal Alchemist: Brotherhood",
+      name : "Fullmetal Alchemist: Brotherhood",
+      year : "2009",
+      Source : "images/fullmetal alchemist brotherhood.jpg",
+      geners : "Action, Adventure, Drama, Darkfantasy, Magic, Military",
+      href : "Anime Series/Fullmetal Alchemist Brotherhood/Fullmetal Alchemist Brotherhood.html",  
+      animetype : "Series",   
+      sub : "64 ep",
+      rating : "9.1",
+      sugget : "yes"
+      },
+      {
       shortName : "Code Geass: Lelouch of the Rebellion R2",
       name : "Code Geass: Lelouch of the Rebellion R2",
       year : "2008",
@@ -1893,7 +1953,35 @@ let AnimeMovieAndSeriesArray = [
       rating : "8.7",
       sugget : "no"
       },
+      {
+      shortName : "Fullmetal Alchemist",
+      name : "Fullmetal Alchemist",
+      year : "2003",
+      Source : "images/fullmetal alchemist.jpg",
+      geners : "Action, Adventure, Drama, Darkfantasy, Magic, Military",
+      href : "Anime Series/Fullmetal Alchemist/Fullmetal Alchemist.html",  
+      animetype : "Series",   
+      sub : "51 ep",
+      rating : "8.1",
+      sugget : "yes"
+      },
+      {
+      shortName : "Cowboy Bebop",
+      name : "Cowboy Bebop",
+      year : "1998",
+      Source : "images/cowboy bebop .jpg",
+      geners : "Action, Sci-Fi, Mecha",
+      href : "Anime Series/Cowboy Bebop/Cowboy Bebop.html",  
+      animetype : "Series",   
+      sub : "26 ep",
+      rating : "8.7",
+      sugget : "yes"
+      },
 ]
+
+let DataBsTime = document.querySelectorAll(".carousel-item");
+
+
 
 let Footer = document.getElementById("footer")
 
